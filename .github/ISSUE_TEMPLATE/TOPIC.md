@@ -12,7 +12,7 @@ Please, aim to fill out all necessary parts of the template which are applicable
 Thank you!
 -->
 
-# Title
+## Title
 <!--
 The title of your topic.
 This title will be potentially diplayed as the title of the related event page or the title of the created material.
