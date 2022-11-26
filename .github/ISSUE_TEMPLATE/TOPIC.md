@@ -30,12 +30,12 @@ Who is your potential audience?
 ## Additional information
 <!-- Add any other information about the topic here. (e.g: the source, useful links) -->
 
-## I'm proposing a ... 
+## I'm proposing an ... 
 <!--  (check one with "x") -->
-[ ] Idea Pool Ambitions
-[ ] Idea Pool Article
-[ ] Idea Pool Demo
-[ ] Idea Pool Expo
-[ ] Idea Pool Minutes
-[ ] Idea Pool Project
-[ ] Idea Pool Vebinar
+- [ ] Idea Pool **Ambitions**
+- [ ] Idea Pool **Article**
+- [ ] Idea Pool **Demo**
+- [ ] Idea Pool **Expo**
+- [ ] Idea Pool **Minutes**
+- [ ] Idea Pool **Project**
+- [ ] Idea Pool **Webinar**
