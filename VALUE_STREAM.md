@@ -18,20 +18,20 @@ Each topic has the following attributes:
 
 - [ ] Complete list of attributes of the topics
 
-## Initiative
+## Stream
 
-All the topics and activities the community works on belongs to one of our **initiatives**.
+All the topics and activities the community works on belongs to one of our **streams**.
 
-An **initiative** is the group of activities with a shared goal to solve a problem or to provide additional benefits.
+An **stream** is the group of activities with a shared goal to solve a problem or to provide additional benefits.
 
-Each initiative has the following attributes:
-* **Name** of the initiative
+Each stream has the following attributes:
+* **Name** of the stream
 * **Goal** to achieve
 * **Benefits** delivered
 * **Problem** solved
-* **Owner** governing the initiative
+* **Owner** governing the stream
 
-Our initiatives so far:
+Our streams so far:
 
 | Name | Goal | Benefits | Problem | Owner | Link |
 |:-----|:-----|:---------|:--------|:------|:-----|
