@@ -12,8 +12,8 @@ Each topic has the following attributes:
 
 | Attribute | Description | Example |
 |:----------|:------------|:--------|
-| Title | Concise title or description of the topic | ... |
-| Description | Extended, detailed description of the topic | ... |
+| **Title** | Concise title or description of the topic | ... |
+| **Description** | Extended, detailed description of the topic | ... |
 | <!-- attribute --> | <!-- description --> | <!-- example --> |
 
 - [ ] Complete list of attributes of the topics
