@@ -10,11 +10,11 @@ Anyone can propose a **topic** or an **idea** that should be covered by the comm
 
 Each topic has the following attributes:
 
-| Attribute | Description | Example |
-|:----------|:------------|:--------|
-| **Title** | Concise title or description of the topic | ... |
-| **Description** | Extended, detailed description of the topic | ... |
-| <!-- attribute --> | <!-- description --> | <!-- example --> |
+| Attribute          | Description                                  | Example                    |
+| :----------------- | :------------------------------------------- | :------------------------- |
+| **Title**          | Concise title or description of the topic    | Quality Architecture Talks |
+| **Description**    | Extended, detailed description of the topic, | ...                        |
+| <!-- attribute --> | <!-- description -->                         | <!-- example -->           |
 
 - [ ] Complete list of attributes of the topics
 
@@ -33,20 +33,63 @@ Each stream has the following attributes:
 
 Our streams so far:
 
-| Name | Goal | Benefits | Problem | Owner | Link |
-|:-----|:-----|:---------|:--------|:------|:-----|
-| **GherKing** | To develop tools to extend the functionality of Gerhkin | ... | ... | @szikszail | <https://github.com/gherking> |
-| <!-- name --> | <!-- goal --> | <!-- benefit --> | <!-- problem --> | <!-- owner --> | <!-- link --> |
+| Name                   | Goal                                                                                                                             | Benefits         | Problem          | Owner          | Link          |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :--------------- | :--------------- | :------------- | :------------ |
+| **Education**          | To assist engineers in their self-development with providing opportunities, materials, and sharing experience and best practices | TBD              | TBD              | TBD            | TBD           |
+| **Open Source**        | To deepen Open Source culture within engineers and give them opportunity to gather development experience                        | TBD              | TBD              | @szikszail     | TBD           |
+| **Authors**            | TBD                                                                                                                              | TBD              | TBD              | TBD            | TBD           |
+| **Cloud**              | TBD                                                                                                                              | TBD              | TBD              | TBD            | TBD           |
+| **TA Tool Evaluation** | TBD                                                                                                                              | TBD              | TBD              | TBD            | TBD           |
+| <!-- name -->          | <!-- goal -->                                                                                                                    | <!-- benefit --> | <!-- problem --> | <!-- owner --> | <!-- link --> |
 
 - [ ] Complete list of initiatives
 
 ## Format
 
-- [ ] Add description of formats
-- [ ] Add list of formats
+Any topic can be realized in one of our **formats** that are approaches and processes to produce result of a stream.
+
+Each format has the following attributes:
+* **Name** of the format
+* **Process** specific to the format
+* **Artifacts** produced by the format
+* **Templates** for the artifacts specific for this format
+* **Owner** maintaining the format
+
+Our formats sor far:
+
+| Name          | Process (link)          | Artifacts          | Templates (link)          | Owner          |
+| :------------ | :---------------------- | :----------------- | :------------------------ | :------------- |
+| **Workshop**  | TBD                     | TBD                | TBD                       | TBD            |
+| **Webinar**   | TBD                     | TBD                | TBD                       | TBD            |
+| **Minutes**   | TBD                     | TBD                | TBD                       | TBD            |
+| **Demo**      | TBD                     | TBD                | TBD                       | TBD            |
+| **Article**   | TBD                     | TBD                | TBD                       | TBD            |
+| **Project**   | TBD                     | TBD                | TBD                       | TBD            |
+| <!-- name --> | <!-- process (link) --> | <!-- artifacts --> | <!-- templates (link) --> | <!-- owner --> |
+
+- [ ] Complete list of formats
 
 ## Artifact
 
-- [ ] Add description of artifacts
-- [ ] Add list of artifacts
+**Artifacts** are achievable and presentable results produced for a topic that demonstrates information.
+
+Each artifact (type) has the following attributes:
+* **Name** of the artifact
+* **Author**(s) created the artifact
+* **Content** of the artifact
+* **Location** of the artifact
+* **Analytics** of view/review
+
+The artifacts available:
+
+| Name         | Author(s)                           | Content (delivered)                                | Location                             | Analytics                |
+| :----------- | :---------------------------------- | :------------------------------------------------- | :----------------------------------- | :----------------------- |
+| **Talk**     | Topic owner(s)                      | WAC Talk, Presentation, Recording                  | WAC, VideoPortal, GitHub             | Views, Rating            |
+| **Video**    | Topic owner(s)                      | Video                                              | WAC, VideoPortal                     | Views, Rating            |
+| **Article**  | Topic owner(s), Author(s)           | WAC Article                                        | WAC, GitHub                          | Views                    |
+| **Software** | Topic owner(s), Contributor(s)      | Software                                           | Artifactory (GitHub, NPM, PyPi, etc) | Download                 |
+| **Site**     | Topic owner(s), Author(s)           | Webpage                                            | Hosting (GitHub Pages, AWS, Wiki)    | Views                    |
+| **Meetup**   | Topic owner(s), Speakers, Moderator | WAC Event, WAC Talk, Presentation(s), Recording(s) | WAC, VideoPortal                     | Views, Rating, Attendees |
+
+- [ ] Review list of artifacts
 
