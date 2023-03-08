@@ -106,7 +106,7 @@ Each format is defined by
 * the **Template(s)** for the artifacts specific to this format, and
 * the **Owner** who mainly maintains the format.
 
-The format(s) of a given topic is marked with the `format:{name}` labels, e.g. `format:education`.
+The format(s) of a given topic is marked with the `format:{name}` labels, e.g. `format:workshop`.
 
 ### Workshop
 
@@ -187,7 +187,7 @@ Each artifact (type) is defined by
 * the **Location** of the artifact, and
 * the **Analytics** of view/review of the artifact.
 
-The artifact(s) of a given topic is marked with the `artifact:{name}` labels, e.g. `artifact:education`.
+The artifact(s) of a given topic is marked with the `artifact:{name}` labels, e.g. `artifact:video`.
 
 ### Talk
 
