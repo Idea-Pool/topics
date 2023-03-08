@@ -2,7 +2,7 @@
 
 **Table of Content:**
 - [Idea Pool Value Stream](#idea-pool-value-stream)
-  - [Topic](#topic)
+  - [Idea](#idea)
   - [Area](#area)
   - [Stream](#stream)
     - [Education](#education)
@@ -29,23 +29,27 @@ In the **Idea Pool Community**, we organized our processes around the following 
 
 ![Idea Pool Value Stream](./assets/IdeaPool_ValueStream.png)
 
-## Topic
+## Idea
 
-The very base of our value stream is the topics. Anyone can propose a **topic** or an **idea** that should be covered by the community. Such a topic should provide professional benefit or advantage to the possible target audience or the participants.
+The very bases of our value stream are the ideas. Anyone can propose an **idea** (topic) that should be covered by the community.
 
-Each topic should have the following attributes:
-* **Title** - Concise title or description of the topic.
-* **Details** - Extended, detailed description of the topic, including **goals**, **benefits**, **planned tasks**, etc.
-* **Area** - The IT area to which the topic belongs, e.g. Test Automation.
-* **Stream(s)** - To which stream the topic belongs or intended. A topic can belong to multiple streams.
-* **Format(s)** - In which format the topic should be covered, based on the formats available for the stream. A topic can be realized in multiple formats.
-* **Artifact(s)** - The planned or delivered artifacts connected to the topic, based on the artifacts and the formats available/assigned to the topic. In the scope of a topic, multiple artifacts can be delivered.
+An idea can be for example a topic to research more, an idea for a small software, or anything interesting, as long as it provides **professional benefit** or **advantage** to the possible target audience or the participants.
 
-The **title** of the topic is only mandatory when proposing a new topic, however, providing the **details** of the topic is highly welcome to have a better understanding of the topic.
+Each idea should have the following attributes:
+* **Title** - Concise title or description of the idea.
+* **Details** - An extended, detailed description of the idea, including **goals**, **benefits**, **planned tasks**, etc.
+* **Area** - The professional area to which the area belongs, e.g. Test Automation.
+* **Stream(s)** - To which stream the idea belongs or is intended. An idea can belong to multiple streams.
+* **Format(s)** - In which format the idea should be covered, based on the formats available for the stream. An idea can be realized in multiple formats.
+* **Artifact(s)** - The planned or delivered artifacts connected to the idea, based on the artifacts and the formats available/assigned to it. In the scope of an idea, multiple artifacts can be delivered.
+
+The **title** of the idea is only mandatory when proposing a new one. However, providing the rest of the attributes (at least the **details**) of the idea is highly welcome to have a better understanding of it.
+
+Each of these ideas is managed as an **issue** in the topics[^topics] repository.
 
 ## Area
 
-All of the topics belong to at least one of the direct or indirect **areas** of IT.
+All of the ideas belong to at least one of the professional **areas**.
 
 Such areas can be:
 * Software Development
@@ -54,11 +58,11 @@ Such areas can be:
 * General
 * Soft Skills
 
-The area(s) of a given topic is marked with the `area:{name}` labels, e.g. `area:test-automation`.
+The area(s) of a given idea is marked with the `area:{name}` labels on the issue of the idea, e.g. `area:test-automation`.
 
 ## Stream
 
-All of the topics and activities belong to one of our **streams**. A **stream** is a group of activities with a shared goal.
+All of the ideas and activities belong to one of our **streams**. A **stream** is a group of activities with a shared goal.
 
 Each stream is defined by
 * the **Name** of the stream,
@@ -66,15 +70,15 @@ Each stream is defined by
 * the **Benefits** the stream delivers, and
 * the **Owner** who mainly governs the stream.
 
-The stream(s) of a given topic is marked with the `stream:{name}` labels, e.g. `stream:education`.
+The stream(s) of a given idea is marked with the `stream:{name}` labels on the issue of the idea, e.g. `stream:education`.
 
 ### Education
 
-* The **goal** of the **Education stream** is to assist engineers in their self-development by providing opportunities, and materials, and sharing experiences and best practices.
+* The **goal** of the **Education stream** is to assist the development of engineers by providing help, opportunities, and materials to learn, educate, to share experiences and best practices.
 * The **benefits** of participating in the Education stream include
   * ...
 
-For more information about the stream, please turn to TBD[^tbd].
+For more information about the stream, please turn to [Sandor Orosz][^sorosz].
 
 ### Open Source
 
@@ -244,4 +248,6 @@ TBD
 <!-- LINKS -->
 [^wearecommunity]: http://ideapool.community
 [^szikszail]: https://github.com/szikszail
+[^sorosz]: https://github.com/sorosz89
+[^topics]: https://github.com/idea-pool/topics
 [^tbd]: tbd
