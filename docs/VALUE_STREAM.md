@@ -37,7 +37,7 @@ Each topic should have the following attributes:
 * **Details** - Extended, detailed description of the topic, including **goals**, **benefits**, **planned tasks**, etc.
 * **Stream(s)** - To which stream the topic belongs or intended. A topic can belong to multiple streams.
 * **Format(s)** - In which format the topic should be covered, based on the formats available for the stream. A topic can be realized in multiple formats.
-* **Artifact(s)** - The planned or delivered artifacts connected to the topic, based on the artifacts and the formats available/assigned to the topic. In scope of a topic, multiple artifacts can be delivered.
+* **Artifact(s)** - The planned or delivered artifacts connected to the topic, based on the artifacts and the formats available/assigned to the topic. In the scope of a topic, multiple artifacts can be delivered.
 
 The **title** of the topic is only mandatory when proposing a new topic, however, providing the **details** of the topic is highly welcome to have a better understanding of the topic.
 
@@ -50,6 +50,8 @@ Each stream is defined by
 * the **Goal** the stream aims to achieve,
 * the **Benefits** the stream delivers, and
 * the **Owner** who mainly governs the stream.
+
+The stream(s) of a given topic is marked with the `stream:{name}` labels, e.g. `stream:education`.
 
 ### Education
 
@@ -103,6 +105,8 @@ Each format is defined by
 * the **Artifact(s)** produced by the format,
 * the **Template(s)** for the artifacts specific to this format, and
 * the **Owner** who mainly maintains the format.
+
+The format(s) of a given topic is marked with the `format:{name}` labels, e.g. `format:education`.
 
 ### Workshop
 
@@ -182,6 +186,8 @@ Each artifact (type) is defined by
 * the actual **Content** of the artifact,
 * the **Location** of the artifact, and
 * the **Analytics** of view/review of the artifact.
+
+The artifact(s) of a given topic is marked with the `artifact:{name}` labels, e.g. `artifact:education`.
 
 ### Talk
 
