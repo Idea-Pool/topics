@@ -144,7 +144,8 @@ For more information about the format, please turn to [TBD][tbd].
 
 In the **TBD** format, TBD, to cover the idea.
 
-The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+The main process of this format:
+![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
@@ -155,7 +156,8 @@ For more information about the format, please turn to [TBD][tbd].
 
 In the **TBD** format, TBD, to cover the idea.
 
-The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+The main process of this format:
+![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
@@ -166,7 +168,8 @@ For more information about the format, please turn to [TBD][tbd].
 
 In the **TBD** format, TBD, to cover the idea.
 
-The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+The main process of this format: 
+![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
@@ -177,7 +180,8 @@ For more information about the format, please turn to [TBD][tbd].
 
 In the **TBD** format, TBD, to cover the idea.
 
-The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+The main process of this format: 
+![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
@@ -188,7 +192,8 @@ For more information about the format, please turn to [TBD][tbd].
 
 In the **TBD** format, TBD, to cover the idea.
 
-The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+The main process of this format: 
+![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
