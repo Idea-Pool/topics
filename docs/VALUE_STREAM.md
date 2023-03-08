@@ -3,6 +3,7 @@
 **Table of Content:**
 - [Idea Pool Value Stream](#idea-pool-value-stream)
   - [Topic](#topic)
+  - [Area](#area)
   - [Stream](#stream)
     - [Education](#education)
     - [Open Source](#open-source)
@@ -35,11 +36,25 @@ The very base of our value stream is the topics. Anyone can propose a **topic** 
 Each topic should have the following attributes:
 * **Title** - Concise title or description of the topic.
 * **Details** - Extended, detailed description of the topic, including **goals**, **benefits**, **planned tasks**, etc.
+* **Area** - The IT area to which the topic belongs, e.g. Test Automation.
 * **Stream(s)** - To which stream the topic belongs or intended. A topic can belong to multiple streams.
 * **Format(s)** - In which format the topic should be covered, based on the formats available for the stream. A topic can be realized in multiple formats.
 * **Artifact(s)** - The planned or delivered artifacts connected to the topic, based on the artifacts and the formats available/assigned to the topic. In the scope of a topic, multiple artifacts can be delivered.
 
 The **title** of the topic is only mandatory when proposing a new topic, however, providing the **details** of the topic is highly welcome to have a better understanding of the topic.
+
+## Area
+
+All of the topics belong to at least one of the direct or indirect **areas** of IT.
+
+Such areas can be:
+* Software Development
+* Testing
+* Test Automation
+* General
+* Soft Skills
+
+The area(s) of a given topic is marked with the `area:{name}` labels, e.g. `area:test-automation`.
 
 ## Stream
 
