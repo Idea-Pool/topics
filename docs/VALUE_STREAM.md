@@ -78,7 +78,7 @@ The stream(s) of a given idea is marked with the `stream:{name}` labels on the i
 * The **benefits** of participating in the Education stream include
   * ...
 
-For more information about the stream, please turn to [Sandor Orosz][sorosz]
+For more information about the stream, please turn to [Sandor Orosz][sorosz].
 
 ### Open Source
 
@@ -88,7 +88,7 @@ For more information about the stream, please turn to [Sandor Orosz][sorosz]
   * Contributing to the global Open Source Community.
   * Realizing software ideas with the help of experienced Open Source contributors.
 
-For more information about the stream, please turn to Laszlo Szikszai[^szikszail].
+For more information about the stream, please turn to [Laszlo Szikszai][szikszail].
 
 ### Authors
 
@@ -96,7 +96,7 @@ For more information about the stream, please turn to Laszlo Szikszai[^szikszail
 * The **benefits** of participating in the Authors stream include
   * ...
 
-For more information about the stream, please turn to TBD[^tbd].
+For more information about the stream, please turn to [TBD][tbd].
 
 ### Cloud
 
@@ -104,7 +104,7 @@ For more information about the stream, please turn to TBD[^tbd].
 * The **benefits** of participating in the Cloud stream include
   * ...
 
-For more information about the stream, please turn to TBD[^tbd].
+For more information about the stream, please turn to [Laszlo Szikszai][szikszail].
 
 ### Test Automation Tool Evaluation (TA Tool Evaluation)
 
@@ -112,11 +112,11 @@ For more information about the stream, please turn to TBD[^tbd].
 * The **benefits** of participating in the TA Tool Evaluation stream include
   * ...
 
-For more information about the stream, please turn to TBD[^tbd].
+For more information about the stream, please turn to [TBD][tbd].
 
 ## Format
 
-Any topic can be realized in one of our **formats** which are approaches and processes to produce results of a stream.
+Any idea can be realized in one of our **formats** which are approaches and processes to produce results of a stream.
 
 Each format is defined by
 * the **Name** of the format,
@@ -125,11 +125,11 @@ Each format is defined by
 * the **Template(s)** for the artifacts specific to this format, and
 * the **Owner** who mainly maintains the format.
 
-The format(s) of a given topic is marked with the `format:{name}` labels, e.g. `format:workshop`.
+The format(s) of a given idea is marked with the `format:{name}` labels on the issue of the idea, e.g. `format:workshop`.
 
 ### Workshop
 
-In the **workshop** format, a primarily offline event is organized, to cover the topic.
+In the **workshop** format, a primarily offline event is organized, to cover the idea.
 
 The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
 
@@ -138,66 +138,66 @@ As the result of a workshop, the following artifacts might be created:
  - A [meetup](#meetup) and a [talk](#talk) to organize the workshop,
  - A [video](#video) recording if the workshop is held online.
 
-For more information about the format, please turn to TBD[^tbd].
+For more information about the format, please turn to [TBD][tbd].
 
 ### Webinar
 
-In the **TBD** format, TBD, to cover the topic.
+In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to TBD[^tbd].
+For more information about the format, please turn to [TBD][tbd].
 
 ### Minutes
 
-In the **TBD** format, TBD, to cover the topic.
+In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to TBD[^tbd].
+For more information about the format, please turn to [TBD][tbd].
 
 ### Demo
 
-In the **TBD** format, TBD, to cover the topic.
+In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to TBD[^tbd].
+For more information about the format, please turn to [TBD][tbd].
 
 ### Article
 
-In the **TBD** format, TBD, to cover the topic.
+In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to TBD[^tbd].
+For more information about the format, please turn to [TBD][tbd].
 
 ### Project
 
-In the **TBD** format, TBD, to cover the topic.
+In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to TBD[^tbd].
+For more information about the format, please turn to [TBD][tbd].
 
 ## Artifact
 
-The **artifacts** are achievable and presentable results produced in the scope of a topic that demonstrates information.
+The **artifacts** are achievable and presentable results produced in the scope of an idea that demonstrates information.
 
 Each artifact (type) is defined by
 * the **Name** of the artifact,
@@ -206,11 +206,11 @@ Each artifact (type) is defined by
 * the **Location** of the artifact, and
 * the **Analytics** of view/review of the artifact.
 
-The artifact(s) of a given topic is marked with the `artifact:{name}` labels, e.g. `artifact:video`.
+The artifact(s) of a given idea is marked with the `artifact:{name}` labels on the issue of the idea, e.g. `artifact:video`.
 
 ### Talk
 
-A topic can be realized in a **talk** on the WeAreCommunity[^wearecommunity] page of the community, as part of an event.
+An idea can be realized in a **talk** on the [WeAreCommunity][wearecommunity] page, as part of an event.
 
 TBD
 
@@ -246,8 +246,8 @@ TBD
 -->
 
 <!-- LINKS -->
-[^wearecommunity]: http://ideapool.community
 [szikszail]: https://github.com/szikszail
 [sorosz]: https://github.com/sorosz89
 [topics]: https://github.com/idea-pool/topics
-[^tbd]: tbd
+[tbd]: tbd
+[wearecommunity]: http://ideapool.community
