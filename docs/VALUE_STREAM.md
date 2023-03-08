@@ -32,33 +32,7 @@
 
 In the **Idea Pool Community**, we organized our processes around the following **value stream**:
 
-![Idea Pool Value Stream](./assets/IdeaPool_ValueStream.png)
-
-```plantuml
-@startuml 
-rectangle idea [
-  <b>Idea</b>
-  A professionally significant idea or need to be covered.
-]
-rectangle stream [
-  <b>Stream</b>
-  Activities with a shared goal to solve a problem or provide additional benefits.
-]
-rectangle format [
-  <b>Format</b>
-  Approaches and processes to produce results of an initiative.
-]
-rectangle artifact [
-  <b>Artifact</b>
-  Presentable artifacts demostrating information/results of the initiatives.
-]
-
-idea -down-> format
-stream -right-> format
-format -right-> artifact
-topic -down-> stream
-@enduml
-```
+![Idea Pool Value Stream](./assets/../uml/value_stream.svg)
 
 ## Idea
 
