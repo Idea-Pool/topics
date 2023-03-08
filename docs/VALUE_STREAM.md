@@ -10,7 +10,19 @@
     - [Cloud](#cloud)
     - [Test Automation Tool Evaluation (TA Tool Evaluation)](#test-automation-tool-evaluation-ta-tool-evaluation)
   - [Format](#format)
+    - [Workshop](#workshop)
+    - [Webinar](#webinar)
+    - [Minutes](#minutes)
+    - [Demo](#demo)
+    - [Article](#article)
+    - [Project](#project)
   - [Artifact](#artifact)
+    - [Talk](#talk)
+    - [Video](#video)
+    - [Article](#article-1)
+    - [Software](#software)
+    - [Site](#site)
+    - [Meetup](#meetup)
 
 In the **Idea Pool Community**, we organized our processes around the following **value stream**:
 
@@ -83,42 +95,121 @@ For more information about the stream, please turn to TBD[^tbd].
 
 ## Format
 
-Any topic can be realized in one of our **formats** that are approaches and processes to produce result of a stream.
+Any topic can be realized in one of our **formats** which are approaches and processes to produce results of a stream.
 
-Each format has the following attributes:
-* **Name** of the format
-* **Process** specific to the format
-* **Artifacts** produced by the format
-* **Templates** for the artifacts specific for this format
-* **Owner** maintaining the format
+Each format is defined by
+* the **Name** of the format,
+* the **Process** the format uses to produce its artifacts,
+* the **Artifact(s)** produced by the format,
+* the **Template(s)** for the artifacts specific to this format, and
+* the **Owner** who mainly maintains the format.
 
-Our formats sor far:
+### Workshop
 
-| Name          | Process (link)          | Artifacts          | Templates (link)          | Owner          |
-| :------------ | :---------------------- | :----------------- | :------------------------ | :------------- |
-| **Workshop**  | TBD                     | TBD                | TBD                       | TBD            |
-| **Webinar**   | TBD                     | TBD                | TBD                       | TBD            |
-| **Minutes**   | TBD                     | TBD                | TBD                       | TBD            |
-| **Demo**      | TBD                     | TBD                | TBD                       | TBD            |
-| **Article**   | TBD                     | TBD                | TBD                       | TBD            |
-| **Project**   | TBD                     | TBD                | TBD                       | TBD            |
-| <!-- name --> | <!-- process (link) --> | <!-- artifacts --> | <!-- templates (link) --> | <!-- owner --> |
+In the **workshop** format, a primarily offline event is organized, to cover the topic.
 
-- [ ] Complete list of formats
+The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+
+As the result of a workshop, the following artifacts might be created:
+ - An [article](#article) to describe the workshop and its outcome,
+ - A [meetup](#meetup) and a [talk](#talk) to organize the workshop,
+ - A [video](#video) recording if the workshop is held online.
+
+For more information about the format, please turn to TBD[^tbd].
+
+### Webinar
+
+In the **TBD** format, TBD, to cover the topic.
+
+The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+
+As the result of a TBD, the following artifacts might be created:
+ - [TBD](#tbd)
+
+For more information about the format, please turn to TBD[^tbd].
+
+### Minutes
+
+In the **TBD** format, TBD, to cover the topic.
+
+The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+
+As the result of a TBD, the following artifacts might be created:
+ - [TBD](#tbd)
+
+For more information about the format, please turn to TBD[^tbd].
+
+### Demo
+
+In the **TBD** format, TBD, to cover the topic.
+
+The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+
+As the result of a TBD, the following artifacts might be created:
+ - [TBD](#tbd)
+
+For more information about the format, please turn to TBD[^tbd].
+
+### Article
+
+In the **TBD** format, TBD, to cover the topic.
+
+The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+
+As the result of a TBD, the following artifacts might be created:
+ - [TBD](#tbd)
+
+For more information about the format, please turn to TBD[^tbd].
+
+### Project
+
+In the **TBD** format, TBD, to cover the topic.
+
+The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+
+As the result of a TBD, the following artifacts might be created:
+ - [TBD](#tbd)
+
+For more information about the format, please turn to TBD[^tbd].
 
 ## Artifact
 
-**Artifacts** are achievable and presentable results produced for a topic that demonstrates information.
+The **artifacts** are achievable and presentable results produced in the scope of a topic that demonstrates information.
 
-Each artifact (type) has the following attributes:
-* **Name** of the artifact
-* **Author**(s) created the artifact
-* **Content** of the artifact
-* **Location** of the artifact
-* **Analytics** of view/review
+Each artifact (type) is defined by
+* the **Name** of the artifact,
+* the **Author(s)** created the artifact,
+* the actual **Content** of the artifact,
+* the **Location** of the artifact, and
+* the **Analytics** of view/review of the artifact.
 
-The artifacts available:
+### Talk
 
+A topic can be realized in a **talk** on the WeAreCommunity[^wearecommunity] page of the community, as part of an event.
+
+TBD
+
+### Video
+
+TBD
+
+### Article
+
+TBD
+
+### Software
+
+TBD
+
+### Site
+
+TBD
+
+### Meetup
+
+TBD
+
+<!--
 | Name         | Author(s)                           | Content (delivered)                                | Location                             | Analytics                |
 | :----------- | :---------------------------------- | :------------------------------------------------- | :----------------------------------- | :----------------------- |
 | **Talk**     | Topic owner(s)                      | WAC Talk, Presentation, Recording                  | WAC, VideoPortal, GitHub             | Views, Rating            |
@@ -127,8 +218,9 @@ The artifacts available:
 | **Software** | Topic owner(s), Contributor(s)      | Software                                           | Artifactory (GitHub, NPM, PyPi, etc) | Download                 |
 | **Site**     | Topic owner(s), Author(s)           | Webpage                                            | Hosting (GitHub Pages, AWS, Wiki)    | Views                    |
 | **Meetup**   | Topic owner(s), Speakers, Moderator | WAC Event, WAC Talk, Presentation(s), Recording(s) | WAC, VideoPortal                     | Views, Rating, Attendees |
+-->
 
-- [ ] Review list of artifacts
-
+<!-- LINKS -->
+[^wearecommunity]: http://ideapool.community
 [^szikszail]: https://github.com/szikszail
 [^tbd]: tbd
