@@ -78,7 +78,7 @@ The stream(s) of a given idea is marked with the `stream:{name}` labels on the i
 * The **benefits** of participating in the Education stream include
   * ...
 
-For more information about the stream, please turn to [Sandor Orosz][^sorosz].
+For more information about the stream, please turn to [Sandor Orosz][sorosz].
 
 ### Open Source
 
@@ -247,7 +247,7 @@ TBD
 
 <!-- LINKS -->
 [^wearecommunity]: http://ideapool.community
-[^szikszail]: https://github.com/szikszail
-[^sorosz]: https://github.com/sorosz89
-[^topics]: https://github.com/idea-pool/topics
+[szikszail]: https://github.com/szikszail
+[sorosz]: https://github.com/sorosz89
+[topics]: https://github.com/idea-pool/topics
 [^tbd]: tbd
