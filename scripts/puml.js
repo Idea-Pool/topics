@@ -1,16 +1,16 @@
 const fs = require('fs');
-const puml = require('plantuml');
+const { default: fetch } = require('node-fetch');
 
 const BASE = 'docs/uml/';
 
+const files = fs.readdirSync(BASE).filter(f => /\.puml$/.test(f));
 (async () => {
-  const files = fs.readdirSync(BASE).filter(f => /\.puml$/.test(f));
   for (const f of files) {
     console.log('Processing', BASE + f);
-    const fSvg = f.replace('.puml', '.svg');
-    const uml = fs.readFileSync(BASE + f);
-    const svg = await puml(uml);
-    fs.writeFileSync(BASE + fSvg, svg, 'utf-8');
-    console.log('Added', BASE + fSvg);
+    const out = f.replace('.puml', '.svg');
+    const puml = fs.readFileSync(BASE + f, 'utf-8');
+    const response = await fetch('http://www.plantuml.com/plantuml/svg/~h' + Buffer.from(puml, 'utf-8').toString('hex'));
+    fs.writeFileSync(BASE + out, await response.text());
+    console.log('Added', BASE + out);
   }
 })();

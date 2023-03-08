@@ -1,23 +1,31 @@
 @startuml Idea Pool Value Stream
 rectangle idea [
 <b>Idea</b>
-A professionally significant idea or need to be covered.
+A professionally significant
+idea or need to be 
+covered.
 ]
 rectangle stream [
 <b>Stream</b>
-Activities with a shared goal to solve a problem or provide additional benefits.
+Activities with a shared
+goal to solve a problem or
+provide additional benefits.
 ]
 rectangle format [
 <b>Format</b>
-Approaches and processes to produce results of an initiative.
+Approaches and processes 
+to produce results of 
+an initiative.
 ]
 rectangle artifact [
 <b>Artifact</b>
-Presentable artifacts demostrating information/results of the initiatives.
+Presentable artifacts 
+demostrating information/
+results of the initiatives.
 ]
 
 idea -down-> format
 stream -right-> format
 format -right-> artifact
-topic -down-> stream
+idea -down-> stream
 @enduml
