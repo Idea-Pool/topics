@@ -1,27 +1,29 @@
 @startuml Idea Pool Value Stream
+skinparam defaultTextAlignment center
+
 rectangle idea #Plum [
-  **Idea**
-  A professionally significant
-  idea or need to be 
-  covered.
+**Idea**
+A professionally significant
+idea or need to be
+covered.
 ]
 rectangle stream #APPLICATION [
-  **Stream**
-  Activities with a shared
-  goal to solve a problem or
-  provide additional benefits.
+**Stream**
+Activities with a shared
+goal to solve a problem or
+provide additional benefits.
 ]
 rectangle format #Moccasin [
-  **Format**
-  Approaches and processes 
-  to produce results of 
-  an initiative.
+**Format**
+Approaches and processes
+to produce results of
+an initiative.
 ]
 rectangle artifact #TECHNOLOGY [
-  **Artifact**
-  Presentable artifacts 
-  demostrating information/
-  results of the initiatives.
+**Artifact**
+Presentable artifacts
+demostrating information/
+results of the initiatives.
 ]
 
 idea -down-> format : realized in
