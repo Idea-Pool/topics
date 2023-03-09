@@ -1,28 +1,28 @@
 @startuml Idea Pool Value Stream
-rectangle idea [
-<b>Idea</b>
-A professionally significant
-idea or need to be 
-covered.
-] #Plum
-rectangle stream [
-<b>Stream</b>
-Activities with a shared
-goal to solve a problem or
-provide additional benefits.
-] #Aqua
-rectangle format [
-<b>Format</b>
-Approaches and processes 
-to produce results of 
-an initiative.
-] #Moccasin
-rectangle artifact [
-<b>Artifact</b>
-Presentable artifacts 
-demostrating information/
-results of the initiatives.
-] #TECHNOLOGY
+rectangle idea #Plum [
+  **Idea**
+  A professionally significant
+  idea or need to be 
+  covered.
+]
+rectangle stream #APPLICATION [
+  **Stream**
+  Activities with a shared
+  goal to solve a problem or
+  provide additional benefits.
+]
+rectangle format #Moccasin [
+  **Format**
+  Approaches and processes 
+  to produce results of 
+  an initiative.
+]
+rectangle artifact #TECHNOLOGY [
+  **Artifact**
+  Presentable artifacts 
+  demostrating information/
+  results of the initiatives.
+]
 
 idea -down-> format : realized in
 stream -right-> format : presented in
