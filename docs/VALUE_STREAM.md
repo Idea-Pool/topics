@@ -29,9 +29,9 @@
 
 <!-- tocstop -->
 
-In the **Idea Pool Community**, we organized our processes around the following **value stream**:
+In the **Idea Pool Community**, we organize our processes around the following **value stream**:
 
-![Idea Pool Value Stream](./assets/../uml/value_stream.svg)
+![Idea Pool Value Stream](./uml/value_stream.svg)
 
 ## Idea
 
@@ -49,7 +49,7 @@ Each idea should have the following attributes:
 
 The **title** of the idea is only mandatory when proposing a new one. However, providing the rest of the attributes (at least the **details**) of the idea is highly welcome to have a better understanding of it.
 
-Each of these ideas is managed as an **issue** in the topics[^topics] repository.
+Each of these ideas is managed as an **issue** in the [topics][topics] repository.
 
 ## Area
 
@@ -135,7 +135,9 @@ The format(s) of a given idea is marked with the `format:{name}` labels on the i
 
 In the **workshop** format, a primarily offline event is organized, to cover the idea.
 
-The main process of this format: ![Workshop-Process](./assets/process-placeholder.png).
+The main process of this format:
+
+![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a workshop, the following artifacts might be created:
  - An [article](#article) to describe the workshop and its outcome,
@@ -149,6 +151,7 @@ For more information about the format, please turn to [TBD][tbd].
 In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
+
 ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
@@ -161,6 +164,7 @@ For more information about the format, please turn to [TBD][tbd].
 In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
+
 ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
@@ -172,7 +176,8 @@ For more information about the format, please turn to [TBD][tbd].
 
 In the **TBD** format, TBD, to cover the idea.
 
-The main process of this format: 
+The main process of this format:
+
 ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
@@ -184,7 +189,8 @@ For more information about the format, please turn to [TBD][tbd].
 
 In the **TBD** format, TBD, to cover the idea.
 
-The main process of this format: 
+The main process of this format:
+
 ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
@@ -196,7 +202,8 @@ For more information about the format, please turn to [TBD][tbd].
 
 In the **TBD** format, TBD, to cover the idea.
 
-The main process of this format: 
+The main process of this format:
+
 ![Workshop-Process](./assets/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
