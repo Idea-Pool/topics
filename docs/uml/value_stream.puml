@@ -4,28 +4,28 @@ rectangle idea [
 A professionally significant
 idea or need to be 
 covered.
-]
+] #Plum
 rectangle stream [
 <b>Stream</b>
 Activities with a shared
 goal to solve a problem or
 provide additional benefits.
-]
+] #Aqua
 rectangle format [
 <b>Format</b>
 Approaches and processes 
 to produce results of 
 an initiative.
-]
+] #Moccasin
 rectangle artifact [
 <b>Artifact</b>
 Presentable artifacts 
 demostrating information/
 results of the initiatives.
-]
+] #TECHNOLOGY
 
-idea -down-> format
-stream -right-> format
-format -right-> artifact
-idea -down-> stream
+idea -down-> format : realized in
+stream -right-> format : presented in
+format -right-> artifact : produces
+idea -down-> stream : part of
 @enduml
