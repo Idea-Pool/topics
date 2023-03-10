@@ -19,12 +19,12 @@
   * [Article](#article)
   * [Project](#project)
 - [Artifact](#artifact)
+  * [Meetup](#meetup)
   * [Talk](#talk)
   * [Video](#video)
   * [Article](#article-1)
   * [Software](#software)
   * [Site](#site)
-  * [Meetup](#meetup)
 
 <!-- tocstop -->
 
@@ -218,6 +218,12 @@ Each artifact (type) is defined by
 
 The artifact(s) of a given idea is marked with the `artifact:{name}` labels on the issue of the idea, e.g. `artifact:video`.
 
+### Meetup
+
+A meetup directly maps to an **event** on the [WeAreCommunity][wearecommunity] page, for example: [AI based image generation with OpenAI's DALL-E API][event].
+
+Meetups can have different formats, including: Tech-Talk, Demo, Workshop, etc.
+
 ### Talk
 
 A talk directly maps to a **talk** on the [WeAreCommunity][wearecommunity] page, as part of an event, for example: [AI based image generation with OpenAI's DALL-E API][talk].
@@ -240,11 +246,10 @@ For each software, we usually create a separate repository ([aws-cdk-assert][pac
 
 ### Site
 
-TBD
+A site is either a **static web-page** or a dynamic web-application created and hosted either on **GitHub Pages** or on the **Idea Pool Domain** (for example: [AWS Testing][awstesting]).
 
-### Meetup
+A site is always a **software** as well, thus similar processes can apply to it as for the software artifact (e.g. creating a repository, or setting up a project).
 
-TBD
 
 <!-- LINKS -->
 [szikszail]: https://github.com/szikszail
@@ -262,3 +267,5 @@ TBD
 [packagesource]: https://github.com/Idea-Pool/aws-cdk-assert
 [packagenpm]: https://www.npmjs.com/package/aws-cdk-assert
 [gherking]: https://github.com/gherking
+[awstesting]: https://aws-testing.ideapool.community/
+[event]: https://wearecommunity.io/events/ai-based-image-generation-with-openai-s-dall-e-api
