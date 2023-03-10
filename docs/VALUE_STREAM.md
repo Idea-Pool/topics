@@ -220,19 +220,23 @@ The artifact(s) of a given idea is marked with the `artifact:{name}` labels on t
 
 ### Talk
 
-An idea can be realized in a **talk** on the [WeAreCommunity][wearecommunity] page, as part of an event.
+A talk directly maps to a **talk** on the [WeAreCommunity][wearecommunity] page, as part of an event, for example: [AI based image generation with OpenAI's DALL-E API][talk].
 
 ### Video
 
-TBD
+A video is an audio-visual artifact that can be either a **recording** of a talk (for example: [AI-based image generation with OpenAI's DALL-E API][recoring]), or a **manually recording/edited** video/movie (for example: [NPM Semantic Versioning][minutes]).
+
+All our video hosted on [VideoPortal][videoportal], and synchronized to [WeAreCommunity][wearecommunity].
 
 ### Article
 
-TBD
+An article directly maps to an **article** on the [WeAreCommunity][wearecommunity] page, for example: [Story telling - Team SSG - Hackathon experience][article].
 
 ### Software
 
-TBD
+A software can be either a **source code** (for example: [evaluation-request-interception][sourcecode]) or the **delivered software** (for example: aws-cdk-assert [Source][packagesource]/[NPM][packagenpm]) as well to any artifactory/repostory (e.g. NPM, PyPi).
+
+For each software, we usually create a separate repository ([aws-cdk-assert][packagesource]) or project/organization ([GherKing][gherking]), depending on its size.
 
 ### Site
 
@@ -242,17 +246,6 @@ TBD
 
 TBD
 
-<!--
-| Name         | Author(s)                           | Content (delivered)                                | Location                             | Analytics                |
-| :----------- | :---------------------------------- | :------------------------------------------------- | :----------------------------------- | :----------------------- |
-| **Talk**     | Topic owner(s)                      | WAC Talk, Presentation, Recording                  | WAC, VideoPortal, GitHub             | Views, Rating            |
-| **Video**    | Topic owner(s)                      | Video                                              | WAC, VideoPortal                     | Views, Rating            |
-| **Article**  | Topic owner(s), Author(s)           | WAC Article                                        | WAC, GitHub                          | Views                    |
-| **Software** | Topic owner(s), Contributor(s)      | Software                                           | Artifactory (GitHub, NPM, PyPi, etc) | Download                 |
-| **Site**     | Topic owner(s), Author(s)           | Webpage                                            | Hosting (GitHub Pages, AWS, Wiki)    | Views                    |
-| **Meetup**   | Topic owner(s), Speakers, Moderator | WAC Event, WAC Talk, Presentation(s), Recording(s) | WAC, VideoPortal                     | Views, Rating, Attendees |
--->
-
 <!-- LINKS -->
 [szikszail]: https://github.com/szikszail
 [sorosz]: https://github.com/sorosz89
@@ -260,3 +253,12 @@ TBD
 [gabor]: https://github.com/mgabor18
 [topics]: https://github.com/idea-pool/topics
 [wearecommunity]: http://ideapool.community
+[article]: https://wearecommunity.io/communities/idea-pool/articles/1662
+[videoportal]: https://videoportal.epam.com/channel/95lajl4RBE/videos
+[minutes]: https://videoportal.epam.com/video/KR7xxBJ4
+[recoring]: https://videoportal.epam.com/video/kaEPkG7e
+[talk]: https://wearecommunity.io/events/ai-based-image-generation-with-openai-s-dall-e-api/talks/49357
+[sourcecode]: https://github.com/Idea-Pool/evaluation-request-interception
+[packagesource]: https://github.com/Idea-Pool/aws-cdk-assert
+[packagenpm]: https://www.npmjs.com/package/aws-cdk-assert
+[gherking]: https://github.com/gherking
