@@ -10,7 +10,8 @@
     "process": "npm-run-all process:*",
     "process:toc": "markdown-toc -i docs/*.md",
     "process:puml": "node scripts/puml.js",
-    "commit:docs": "npm run process && git add docs && git commit"
+    "commit:docs": "npm run process && git add docs && git commit",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
