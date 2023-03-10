@@ -9,7 +9,6 @@
 - [Stream](#stream)
   * [Education](#education)
   * [Open Source](#open-source)
-  * [Authors](#authors)
   * [Cloud](#cloud)
   * [Test Automation Tool Evaluation (TA Tool Evaluation)](#test-automation-tool-evaluation-ta-tool-evaluation)
 - [Format](#format)
@@ -78,11 +77,13 @@ The stream(s) of a given idea is marked with the `stream:{name}` labels on the i
 
 ### Education
 
+- [ ] Rename
+
 * The **goal** of the **Education stream** is to assist the development of engineers by providing help, opportunities, and materials to learn, educate, to share experiences and best practices.
 * The **benefits** of participating in the Education stream include
   * ...
 
-For more information about the stream, please turn to [Sandor Orosz][sorosz].
+For more information about the stream, please turn to [Milan Horvath][milan].
 
 ### Open Source
 
@@ -94,19 +95,12 @@ For more information about the stream, please turn to [Sandor Orosz][sorosz].
 
 For more information about the stream, please turn to [Laszlo Szikszai][szikszail].
 
-### Authors
-
-* The **goal** of the **Authors stream** is to...
-* The **benefits** of participating in the Authors stream include
-  * ...
-
-For more information about the stream, please turn to [TBD][tbd].
-
 ### Cloud
 
-* The **goal** of the **Cloud stream** is to...
+* The **goal** of the **Cloud stream** is to aid engineers to extend their knowledge and gather experience with cloud technologies, platforms, and SDLC processes adapted to it.
 * The **benefits** of participating in the Cloud stream include
-  * ...
+  * Gathering practical experience with cloud services (AWS, Azure, GCP) and connected technologies.
+  * Being able to adapt the standard SDLC practices to the cloud, such as development and testing.
 
 For more information about the stream, please turn to [Laszlo Szikszai][szikszail].
 
@@ -116,7 +110,7 @@ For more information about the stream, please turn to [Laszlo Szikszai][szikszai
 * The **benefits** of participating in the TA Tool Evaluation stream include
   * ...
 
-For more information about the stream, please turn to [TBD][tbd].
+For more information about the stream, please turn to [Sandor Orosz][sorosz].
 
 ## Format
 
@@ -144,7 +138,7 @@ As the result of a workshop, the following artifacts might be created:
  - A [meetup](#meetup) and a [talk](#talk) to organize the workshop,
  - A [video](#video) recording if the workshop is held online.
 
-For more information about the format, please turn to [TBD][tbd].
+For more information about the format, please turn to [Sandor Orosz][sorosz].
 
 ### Webinar
 
@@ -157,7 +151,7 @@ The main process of this format:
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to [TBD][tbd].
+For more information about the format, please turn to [Laszlo Szikszai][szikszail].
 
 ### Minutes
 
@@ -170,7 +164,7 @@ The main process of this format:
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to [TBD][tbd].
+For more information about the format, please turn to [Sandor Orosz][sorosz].
 
 ### Demo
 
@@ -183,7 +177,7 @@ The main process of this format:
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to [TBD][tbd].
+For more information about the format, please turn to [Gabor Marton][gabor].
 
 ### Article
 
@@ -196,7 +190,7 @@ The main process of this format:
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to [TBD][tbd].
+For more information about the format, please turn to [Milan Horvath][milan].
 
 ### Project
 
@@ -209,7 +203,7 @@ The main process of this format:
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
 
-For more information about the format, please turn to [TBD][tbd].
+For more information about the format, please turn to [Laszlo Szikszai][szikszail].
 
 ## Artifact
 
@@ -227,8 +221,6 @@ The artifact(s) of a given idea is marked with the `artifact:{name}` labels on t
 ### Talk
 
 An idea can be realized in a **talk** on the [WeAreCommunity][wearecommunity] page, as part of an event.
-
-TBD
 
 ### Video
 
@@ -264,6 +256,7 @@ TBD
 <!-- LINKS -->
 [szikszail]: https://github.com/szikszail
 [sorosz]: https://github.com/sorosz89
+[milan]: https://github.com/horvathmilan
+[gabor]: https://github.com/mgabor18
 [topics]: https://github.com/idea-pool/topics
-[tbd]: tbd
 [wearecommunity]: http://ideapool.community
