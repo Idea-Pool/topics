@@ -210,45 +210,45 @@ For more information about the format, please turn to [Laszlo Szikszai][szikszai
 The **artifacts** are achievable and presentable results produced in the scope of an idea that demonstrates information.
 
 Each artifact (type) is defined by
-* the **Name** of the artifact,
-* the **Author(s)** created the artifact,
-* the actual **Content** of the artifact,
-* the **Location** of the artifact, and
-* the **Analytics** of view/review of the artifact.
+* the **name** of the artifact,
+* the **author(s)** created the artifact,
+* the actual **content** of the artifact,
+* the **location** of the artifact, and
+* the **analytics** of view/review of the artifact.
 
-The artifact(s) of a given idea is marked with the `artifact:{name}` labels on the issue of the idea, e.g. `artifact:video`.
+The artifact(s) of a given idea is marked with the `artifact:{name}` labels on the issue of the idea (e.g., `artifact:video`).
 
 ### Meetup
 
-A meetup directly maps to an **event** on the [WeAreCommunity][wearecommunity] page, for example: [AI based image generation with OpenAI's DALL-E API][event].
+A meetup directly maps to an **event** on the [WeAreCommunity][wearecommunity] page (e.g., [AI based image generation with OpenAI's DALL-E API][event]).
 
-Meetups can have different formats, including: Tech-Talk, Demo, Workshop, etc.
+Meetups can have different formats, including Tech-Talk, Demo, and Workshop.
 
 ### Talk
 
-A talk directly maps to a **talk** on the [WeAreCommunity][wearecommunity] page, as part of an event, for example: [AI based image generation with OpenAI's DALL-E API][talk].
+A talk directly maps to a **talk** on the [WeAreCommunity][wearecommunity] page as part of an event (e.g., [AI based image generation with OpenAI's DALL-E API][talk]).
 
 ### Video
 
-A video is an audio-visual artifact that can be either a **recording** of a talk (for example: [AI-based image generation with OpenAI's DALL-E API][recoring]), or a **manually recording/edited** video/movie (for example: [NPM Semantic Versioning][minutes]).
+A video is an audio-visual artifact that can be either a **recording** of a talk (e.g., [AI-based image generation with OpenAI's DALL-E API][recoring]) or a **manually recorded/edited** video/movie (e.g., [NPM Semantic Versioning][minutes]).
 
-All our video hosted on [VideoPortal][videoportal], and synchronized to [WeAreCommunity][wearecommunity].
+All our videos are hosted on [VideoPortal][videoportal] and synchronized to [WeAreCommunity][wearecommunity].
 
 ### Article
 
-An article directly maps to an **article** on the [WeAreCommunity][wearecommunity] page, for example: [Story telling - Team SSG - Hackathon experience][article].
+An article directly maps to an **article** on the [WeAreCommunity][wearecommunity] page (e.g., [Story telling - Team SSG - Hackathon experience][article]).
 
 ### Software
 
-A software can be either a **source code** (for example: [evaluation-request-interception][sourcecode]) or the **delivered software** (for example: aws-cdk-assert [Source][packagesource]/[NPM][packagenpm]) as well to any artifactory/repostory (e.g. NPM, PyPi).
+The software can be either a **source code** (e.g., [evaluation-request-interception][sourcecode]) or the **delivered software** (e.g., aws-cdk-assert [Source][packagesource]/[NPM][packagenpm]) as well as any artifactory/repository (e.g., NPM, PyPi).
 
 For each software, we usually create a separate repository ([aws-cdk-assert][packagesource]) or project/organization ([GherKing][gherking]), depending on its size.
 
 ### Site
 
-A site is either a **static web-page** or a dynamic web-application created and hosted either on **GitHub Pages** or on the **Idea Pool Domain** (for example: [AWS Testing][awstesting]).
+A site is either a **static web page** or a dynamic web application created and hosted on **GitHub Pages** or the **Idea Pool Domain** (e.g., [AWS Testing][awstesting]).
 
-A site is always a **software** as well, thus similar processes can apply to it as for the software artifact (e.g. creating a repository, or setting up a project).
+A site is also **software**, meaning similar processes can apply to it as for the software artifact (e.g., creating a repository, or setting up a project).
 
 
 <!-- LINKS -->
