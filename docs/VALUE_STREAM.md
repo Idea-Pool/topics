@@ -19,12 +19,12 @@
   * [Article](#article)
   * [Project](#project)
 - [Artifact](#artifact)
+  * [Meetup](#meetup)
   * [Talk](#talk)
   * [Video](#video)
   * [Article](#article-1)
   * [Software](#software)
   * [Site](#site)
-  * [Meetup](#meetup)
 
 <!-- tocstop -->
 
@@ -34,17 +34,17 @@ In the **Idea Pool Community**, we organize our processes around the following *
 
 ## Idea
 
-The very bases of our value stream are the ideas. Anyone can propose an **idea** (topic) that should be covered by the community.
+The very base of our value stream is the idea. Anyone can propose an **idea** (topic) that the community should cover.
 
-An idea can be for example a topic to research more, an idea for a small software, or anything interesting, as long as it provides **professional benefit** or **advantage** to the possible target audience or the participants.
+An idea can be, for example, a topic to research more, an idea for a small software, or anything interesting, as long as it provides **professional benefit** or **advantage** to the possible target audience or the participants.
 
-Each idea should have the following attributes:
-* **Title** - Concise title or description of the idea.
-* **Details** - An extended, detailed description of the idea, including **goals**, **benefits**, **planned tasks**, etc.
-* **Area** - The professional area to which the area belongs, e.g. Test Automation.
-* **Stream(s)** - To which stream the idea belongs or is intended. An idea can belong to multiple streams.
-* **Format(s)** - In which format the idea should be covered, based on the formats available for the stream. An idea can be realized in multiple formats.
-* **Artifact(s)** - The planned or delivered artifacts connected to the idea, based on the artifacts and the formats available/assigned to it. In the scope of an idea, multiple artifacts can be delivered.
+Each idea is defined by:
+* A concise **title** or description of the idea
+* A **detailed description** of the idea, including **goals**, **benefits**, and **planned tasks**
+* The professional **area** to which the area belongs, e.g., Test Automation
+* The **stream(s)** the idea belongs to or is intended. An idea can belong to multiple streams.
+* The **format(s)** in the idea should be covered from the formats available for the stream. An idea can be realized in multiple formats.
+* The planned or delivered **artifact(s)** connected to the idea, based on the artifacts and the formats available/assigned to it. In the scope of an idea, multiple artifacts can be delivered.
 
 The **title** of the idea is only mandatory when proposing a new one. However, providing the rest of the attributes (at least the **details**) of the idea is highly welcome to have a better understanding of it.
 
@@ -61,25 +61,25 @@ Such areas can be:
 * General
 * Soft Skills
 
-The area(s) of a given idea is marked with the `area:{name}` labels on the issue of the idea, e.g. `area:test-automation`.
+The area(s) of a given idea is marked with the `area:{name}` labels on the issue of the idea (e.g., `area:test-automation`).
 
 ## Stream
 
 All of the ideas and activities belong to one of our **streams**. A **stream** is a group of activities with a shared goal.
 
 Each stream is defined by
-* the **Name** of the stream,
-* the **Goal** the stream aims to achieve,
-* the **Benefits** the stream delivers, and
-* the **Owner** who mainly governs the stream.
+* the **name** of the stream,
+* the **goal(s)** the stream aims to achieve,
+* the **benefit(s)** the stream delivers, and
+* the **owner** who mainly governs the stream.
 
-The stream(s) of a given idea is marked with the `stream:{name}` labels on the issue of the idea, e.g. `stream:education`.
+The stream(s) of a given idea is marked with the `stream:{name}` labels on the issue of the idea (e.g., `stream:education`).
 
 ### Education
 
 - [ ] Rename
 
-* The **goal** of the **Education stream** is to assist the development of engineers by providing help, opportunities, and materials to learn, educate, to share experiences and best practices.
+* The **Education stream** aims to assist the development of engineers by providing help, opportunities, and materials to learn, educate, to share experiences and best practices.
 * The **benefits** of participating in the Education stream include
   * ...
 
@@ -87,26 +87,26 @@ For more information about the stream, please turn to [Milan Horvath][milan].
 
 ### Open Source
 
-* The **goal** of the **Open Source stream** is to deepen Open Source culture within engineers and allow them to gather development experience and contribute to the Open Source Community.
+* The **Open Source stream** aims to deepen Open Source culture within engineers and allow them to gather development experience and contribute to the Open Source Community.
 * The **benefits** of participating in the Open Source stream include
-  * Gathering experience with E2E software development practices, including planning, design, development, testing, release, and maintenance.
-  * Contributing to the global Open Source Community.
-  * Realizing software ideas with the help of experienced Open Source contributors.
+  * Gathering experience with E2E software development practices, including planning, design, development, testing, release, and maintenance
+  * Contributing to the global Open Source Community
+  * Realizing software ideas with the help of experienced Open Source contributors
 
 For more information about the stream, please turn to [Laszlo Szikszai][szikszail].
 
 ### Cloud
 
-* The **goal** of the **Cloud stream** is to aid engineers to extend their knowledge and gather experience with cloud technologies, platforms, and SDLC processes adapted to it.
+* The **Cloud stream** aims is to aid engineers in extending their knowledge and gathering experience with cloud technologies, platforms, and SDLC processes adapted to it.
 * The **benefits** of participating in the Cloud stream include
-  * Gathering practical experience with cloud services (AWS, Azure, GCP) and connected technologies.
-  * Being able to adapt the standard SDLC practices to the cloud, such as development and testing.
+  * Gathering practical experience with cloud services (AWS, Azure, GCP) and connected technologies
+  * Being able to adapt the standard SDLC practices to the cloud, such as development and testing
 
 For more information about the stream, please turn to [Laszlo Szikszai][szikszail].
 
 ### Test Automation Tool Evaluation (TA Tool Evaluation)
 
-* The **goal** of the **TA Tool Evaluation stream** is to...
+* The **TA Tool Evaluation stream** aims to...
 * The **benefits** of participating in the TA Tool Evaluation stream include
   * ...
 
@@ -114,16 +114,16 @@ For more information about the stream, please turn to [Sandor Orosz][sorosz].
 
 ## Format
 
-Any idea can be realized in one of our **formats** which are approaches and processes to produce results of a stream.
+Any idea can be realized in one of our **formats** which are approaches and processes to produce stream results.
 
 Each format is defined by
-* the **Name** of the format,
-* the **Process** the format uses to produce its artifacts,
-* the **Artifact(s)** produced by the format,
-* the **Template(s)** for the artifacts specific to this format, and
-* the **Owner** who mainly maintains the format.
+* the **name** of the format,
+* the **process** the format uses to produce its artifacts,
+* the **artifact(s)** produced by the format,
+* the **template(s)** of the artifacts specific to this format, and
+* the **owner** who mainly maintains the format.
 
-The format(s) of a given idea is marked with the `format:{name}` labels on the issue of the idea, e.g. `format:workshop`.
+The format(s) of a given idea is marked with the `format:{name}` labels on the issue of the idea (e.g., `format:workshop`).
 
 ### Workshop
 
@@ -210,48 +210,46 @@ For more information about the format, please turn to [Laszlo Szikszai][szikszai
 The **artifacts** are achievable and presentable results produced in the scope of an idea that demonstrates information.
 
 Each artifact (type) is defined by
-* the **Name** of the artifact,
-* the **Author(s)** created the artifact,
-* the actual **Content** of the artifact,
-* the **Location** of the artifact, and
-* the **Analytics** of view/review of the artifact.
+* the **name** of the artifact,
+* the **author(s)** created the artifact,
+* the actual **content** of the artifact,
+* the **location** of the artifact, and
+* the **analytics** of view/review of the artifact.
 
-The artifact(s) of a given idea is marked with the `artifact:{name}` labels on the issue of the idea, e.g. `artifact:video`.
-
-### Talk
-
-An idea can be realized in a **talk** on the [WeAreCommunity][wearecommunity] page, as part of an event.
-
-### Video
-
-TBD
-
-### Article
-
-TBD
-
-### Software
-
-TBD
-
-### Site
-
-TBD
+The artifact(s) of a given idea is marked with the `artifact:{name}` labels on the issue of the idea (e.g., `artifact:video`).
 
 ### Meetup
 
-TBD
+A meetup directly maps to an **event** on the [WeAreCommunity][wearecommunity] page (e.g., [AI based image generation with OpenAI's DALL-E API][event]).
 
-<!--
-| Name         | Author(s)                           | Content (delivered)                                | Location                             | Analytics                |
-| :----------- | :---------------------------------- | :------------------------------------------------- | :----------------------------------- | :----------------------- |
-| **Talk**     | Topic owner(s)                      | WAC Talk, Presentation, Recording                  | WAC, VideoPortal, GitHub             | Views, Rating            |
-| **Video**    | Topic owner(s)                      | Video                                              | WAC, VideoPortal                     | Views, Rating            |
-| **Article**  | Topic owner(s), Author(s)           | WAC Article                                        | WAC, GitHub                          | Views                    |
-| **Software** | Topic owner(s), Contributor(s)      | Software                                           | Artifactory (GitHub, NPM, PyPi, etc) | Download                 |
-| **Site**     | Topic owner(s), Author(s)           | Webpage                                            | Hosting (GitHub Pages, AWS, Wiki)    | Views                    |
-| **Meetup**   | Topic owner(s), Speakers, Moderator | WAC Event, WAC Talk, Presentation(s), Recording(s) | WAC, VideoPortal                     | Views, Rating, Attendees |
--->
+Meetups can have different formats, including Tech-Talk, Demo, and Workshop.
+
+### Talk
+
+A talk directly maps to a **talk** on the [WeAreCommunity][wearecommunity] page as part of an event (e.g., [AI based image generation with OpenAI's DALL-E API][talk]).
+
+### Video
+
+A video is an audio-visual artifact that can be either a **recording** of a talk (e.g., [AI-based image generation with OpenAI's DALL-E API][recoring]) or a **manually recorded/edited** video/movie (e.g., [NPM Semantic Versioning][minutes]).
+
+All our videos are hosted on [VideoPortal][videoportal] and synchronized to [WeAreCommunity][wearecommunity].
+
+### Article
+
+An article directly maps to an **article** on the [WeAreCommunity][wearecommunity] page (e.g., [Story telling - Team SSG - Hackathon experience][article]).
+
+### Software
+
+The software can be either a **source code** (e.g., [evaluation-request-interception][sourcecode]) or the **delivered software** (e.g., aws-cdk-assert [Source][packagesource]/[NPM][packagenpm]) as well as any artifactory/repository (e.g., NPM, PyPi).
+
+For each software, we usually create a separate repository ([aws-cdk-assert][packagesource]) or project/organization ([GherKing][gherking]), depending on its size.
+
+### Site
+
+A site is either a **static web page** or a dynamic web application created and hosted on **GitHub Pages** or the **Idea Pool Domain** (e.g., [AWS Testing][awstesting]).
+
+A site is also **software**, meaning similar processes can apply to it as for the software artifact (e.g., creating a repository, or setting up a project).
+
 
 <!-- LINKS -->
 [szikszail]: https://github.com/szikszail
@@ -260,3 +258,14 @@ TBD
 [gabor]: https://github.com/mgabor18
 [topics]: https://github.com/idea-pool/topics
 [wearecommunity]: http://ideapool.community
+[article]: https://wearecommunity.io/communities/idea-pool/articles/1662
+[videoportal]: https://videoportal.epam.com/channel/95lajl4RBE/videos
+[minutes]: https://videoportal.epam.com/video/KR7xxBJ4
+[recoring]: https://videoportal.epam.com/video/kaEPkG7e
+[talk]: https://wearecommunity.io/events/ai-based-image-generation-with-openai-s-dall-e-api/talks/49357
+[sourcecode]: https://github.com/Idea-Pool/evaluation-request-interception
+[packagesource]: https://github.com/Idea-Pool/aws-cdk-assert
+[packagenpm]: https://www.npmjs.com/package/aws-cdk-assert
+[gherking]: https://github.com/gherking
+[awstesting]: https://aws-testing.ideapool.community/
+[event]: https://wearecommunity.io/events/ai-based-image-generation-with-openai-s-dall-e-api
