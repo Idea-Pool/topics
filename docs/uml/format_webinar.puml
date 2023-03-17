@@ -55,8 +55,18 @@ note left
     up, the recording and slides
     are available
 end note
--->[Administration] Done
-note right
+if "Summary article is needed?" then
+    -right->[Yes] In summary
+    note right
+        An article is created on the
+        WeAreCommunity page,
+        summarizing the webinar.
+    end note
+    -->[Administration] Done
+else
+    -->[No, Administration] Done
+endif
+note left
     The recording is uploaded to
     VideoPortal and the talk,
     alongside with the slides and
@@ -64,7 +74,7 @@ note right
     (if created)
 end note
 ..> (*)
-note left
+note right
     We collect statistics and
     feedback about the webinar:
     views, questions, speaker badge, etc
