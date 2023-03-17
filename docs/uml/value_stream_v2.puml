@@ -1,6 +1,10 @@
 @startwbs Idea Pool Value Stream
 skinparam defaultTextAlignment center
 skinparam backgroundColor transparent
+skinparam arrow {
+    Color SteelBlue
+    FontColor SteelBlue
+}
 
 +[#Plum]:**Idea**
  A professionally significant
