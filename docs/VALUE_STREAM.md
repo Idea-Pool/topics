@@ -1,13 +1,3 @@
-<style>
-img {
-    display:block;
-    float:none;
-    margin-left:auto;
-    margin-right:auto;
-    max-width: 80%;
-}
-</style>
-
 # Idea Pool Value Stream
 
 **Table of Content:**
