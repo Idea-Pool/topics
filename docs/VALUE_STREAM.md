@@ -1,5 +1,14 @@
 # Idea Pool Value Stream
 
+<style>
+img {
+    display:block;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+}
+</style>
+
 **Table of Content:**
 
 <!-- toc -->
