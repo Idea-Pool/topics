@@ -69,8 +69,11 @@ class PUMLConverter {
         return this._convertTo('svg');
     }
 
+    _needToGenerate(type) {
+        return process.env.PUML_FORCE_UPDATE || process.argv.includes('--force') || this.updated || !fs.existsSync(this[type])
+    }
     async _convertTo(type) {
-        if (this.updated || !fs.existsSync(this[type])) {
+        if (this._needToGenerate(type)) {
             const response = await fetch(`http://www.plantuml.com/plantuml/${type}/~h${this.hex}`);
             response.body.pipe(fs.createWriteStream(this[type]));
             console.log('Added', this[type]);
