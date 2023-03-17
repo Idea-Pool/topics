@@ -1,14 +1,55 @@
-@startuml Format Process
+@startuml <TBD> Format Process
+
+skinparam defaultFontName Ubuntu Light
+skinparam backgroundColor transparent
 
 skinparam activity {
     BackgroundColor PowderBlue
-    ArrowColor Navy
-    ArrowFontColor MediumSlateBlue
+    StartColor ForestGreen
     EndColor ForestGreen
+    FontStyle bold
 }
 
-(*) -->[Idea Proposed] Idea
+skinparam arrow {
+    Color SteelBlue
+    FontColor SteelBlue
+}
 
-Idea -->[Idea Delivered] (*)
+skinparam note {
+    BackgroundColor AliceBlue
+    FontSize 10
+}
+
+note right
+    A topic arise
+end note
+(*) -->[Submission] Draft
+note left
+    An Idea (issue) is created
+end note
+-->[Clarification] Ready
+note right
+    The idea is clear,
+    ...,
+    and the idea is
+    planned to be included in
+    an upcoming sprint/month
+end note
+..>[The given\n**sprint/month**\narrives] In progress
+..>TBD
+-->[Administration] Done
+note right
+    The recording is uploaded to
+    VideoPortal and the talk,
+    alongside with the slides and
+    link to the source code
+    (if created)
+end note
+..> (*)
+note left
+    We collect statistics and
+    feedback about the webinar:
+    ...
+end note
 
 @enduml

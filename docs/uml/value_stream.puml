@@ -1,5 +1,12 @@
 @startuml Idea Pool Value Stream
 skinparam defaultTextAlignment center
+skinparam defaultFontName Ubuntu Light
+skinparam backgroundColor transparent
+
+skinparam arrow {
+    Color SteelBlue
+    FontColor SteelBlue
+}
 
 rectangle idea #Plum [
 **Idea**
@@ -22,12 +29,12 @@ an initiative.
 rectangle artifact #TECHNOLOGY [
 **Artifact**
 Presentable artifacts
-demostrating information/
+demonstrating information/
 results of the initiatives.
 ]
 
 idea -down-> format : realized in
 stream -right-> format : presented in
-format -right-> artifact : produces
+format -down-> artifact : produces
 idea -down-> stream : part of
 @enduml

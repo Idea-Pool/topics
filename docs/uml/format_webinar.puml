@@ -1,14 +1,73 @@
 @startuml Webinar Format Process
 
+skinparam defaultFontName Ubuntu Light
+skinparam backgroundColor transparent
+
 skinparam activity {
     BackgroundColor PowderBlue
-    ArrowColor Navy
-    ArrowFontColor MediumSlateBlue
+    StartColor ForestGreen
     EndColor ForestGreen
+    FontStyle bold
 }
 
-(*) -->[Idea Proposed] Idea
+skinparam arrow {
+    Color SteelBlue
+    FontColor SteelBlue
+}
 
-Idea --> (*)
+skinparam note {
+    BackgroundColor AliceBlue
+    FontSize 10
+}
+
+note right
+    A topic arise
+end note
+(*) -->[Submission] Draft
+note left
+    An Idea (issue) is created
+end note
+-->[Clarification] Ready
+note right
+    The idea is clear, the trainer
+    is identified, and the idea is
+    planned to be included in
+    an upcoming sprint/month
+end note
+..>[The given\n**sprint/month**\narrives] In progress
+note left
+    The presentation and additional
+    artifacts (code) is created by
+    the trainer, and reviewed by
+    at least one of the staff members
+end note
+-->[Organization] Scheduled
+note right
+    An event is created on the
+    WeAreCommunity page and
+    registration is enabled
+end note
+..>[The webinar\n**date**\narrives] Conducted
+note left
+    The webinar is conducted at
+    the given date/time, all the
+    questions answered or followed
+    up, the recording and slides
+    are available
+end note
+-->[Administration] Done
+note right
+    The recording is uploaded to
+    VideoPortal and the talk,
+    alongside with the slides and
+    link to the source code
+    (if created)
+end note
+..> (*)
+note left
+    We collect statistics and
+    feedback about the webinar:
+    views, questions, speaker badge, etc
+end note
 
 @enduml
