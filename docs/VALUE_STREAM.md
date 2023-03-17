@@ -131,7 +131,7 @@ In the **workshop** format, a primarily offline event is organized, to cover the
 
 The main process of this format:
 
-![Workshop-Process](./assets/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.png).
 
 As the result of a workshop, the following artifacts might be created:
  - An [article](#article) to describe the workshop and its outcome,
@@ -142,14 +142,17 @@ For more information about the format, please turn to [Sandor Orosz][sorosz].
 
 ### Webinar
 
-In the **TBD** format, TBD, to cover the idea.
+In the **webinar** format, an online event is organized, to cover the idea, to explain the topic and reflect on questions related to it.
 
 The main process of this format:
 
-![Workshop-Process](./assets/process-placeholder.png).
+![Webinar-Process](./uml/format_webinar.png).
 
-As the result of a TBD, the following artifacts might be created:
- - [TBD](#tbd)
+As the result of a webinar, the following artifacts might be created:
+ - An [article](#article) to summarize the topic of the webinar,
+ - A [meetup](#meetup) and a [talk](#talk) to organize the webinar,
+ - A [video](#video) recording the webinar,
+ - A [software](#software) (repository) containing the source code used during the webinar (if there were any).
 
 For more information about the format, please turn to [Laszlo Szikszai][szikszail].
 
@@ -159,7 +162,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./assets/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
@@ -172,7 +175,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./assets/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
@@ -185,7 +188,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./assets/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)
@@ -198,7 +201,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./assets/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.png).
 
 As the result of a TBD, the following artifacts might be created:
  - [TBD](#tbd)

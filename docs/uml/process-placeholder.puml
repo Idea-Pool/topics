@@ -1,0 +1,14 @@
+@startuml Format Process
+
+skinparam activity {
+    BackgroundColor PowderBlue
+    ArrowColor Navy
+    ArrowFontColor MediumSlateBlue
+    EndColor ForestGreen
+}
+
+(*) -->[Idea Proposed] Idea
+
+Idea -->[Idea Delivered] (*)
+
+@enduml
