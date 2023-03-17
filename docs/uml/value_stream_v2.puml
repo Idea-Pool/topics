@@ -1,0 +1,48 @@
+@startwbs Idea Pool Value Stream
+skinparam defaultTextAlignment center
+skinparam backgroundColor transparent
+
++[#Plum]:**Idea**
+ A professionally significant
+ idea or need to be
+ covered.;
+
+++[#Salmon]:**Area**
+A professional area the
+idea belongs to;
+
+++[#Turquoise]:**Stream**
+Activities with a shared
+goal to solve a problem or
+provide additional benefits.;
+
++++[#PaleTurquoise] Competency Development
++++[#PaleTurquoise] Cloud
++++[#PaleTurquoise] Open Source
++++[#PaleTurquoise] TA Tool Evaluation
+
+++[#Gold]:**Format**
+Approaches and processes
+to produce results of
+an initiative.;
+
++++[#BlanchedAlmond] Article
++++[#BlanchedAlmond] Demo
++++[#BlanchedAlmond] Minutes
++++[#BlanchedAlmond] Project
++++[#BlanchedAlmond] Webinar
++++[#BlanchedAlmond] Workshop
+
+++[#Lime]: **Artifact**
+Presentable artifacts
+demonstrating information/
+results of the initiatives.;
+
++++[#PaleGreen] Article
++++[#PaleGreen] Meetup
++++[#PaleGreen] Site
++++[#PaleGreen] Software
++++[#PaleGreen] Talk
++++[#PaleGreen] Video
+
+@endwbs

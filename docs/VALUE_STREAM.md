@@ -30,7 +30,7 @@
 
 In the **Idea Pool Community**, we organize our processes around the following **value stream**:
 
-![Idea Pool Value Stream](./uml/value_stream.svg)
+![Idea Pool Value Stream](./uml/value_stream_v2.svg)
 
 ## Idea
 
