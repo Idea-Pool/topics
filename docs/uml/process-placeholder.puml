@@ -1,4 +1,4 @@
-@startuml <TBD> Format Process
+@startuml TBD Format Process
 
 skinparam defaultFontName Ubuntu Light
 skinparam backgroundColor transparent
