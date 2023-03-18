@@ -1,11 +1,14 @@
 # Idea Pool Value Stream
 
-**Table of Content:**
+In the **Idea Pool Community**, we organize our processes around the following **value stream**:
+
+![Idea Pool Value Stream](./uml/value_stream_v2.svg)
 
 <!-- toc -->
 
 - [Idea](#idea)
 - [Area](#area)
+- [Milestone](#milestone)
 - [Stream](#stream)
   * [Competency Development](#competency-development)
   * [Cloud](#cloud)
@@ -27,10 +30,6 @@
   * [Video](#video)
 
 <!-- tocstop -->
-
-In the **Idea Pool Community**, we organize our processes around the following **value stream**:
-
-![Idea Pool Value Stream](./uml/value_stream_v2.svg)
 
 ## Idea
 
@@ -69,6 +68,16 @@ Such areas can be:
 
 The area(s) of a given idea is marked with the `area:{name}` labels on the issue of the idea (
 e.g., `area:test-automation`).
+
+## Milestone
+
+When an idea is ready to work on, it is planned for a **milestone**. A milestone is usually a given quarter of the year,
+starting at the first day of the quarter, and ends at the last.
+
+An example milestone: **2023 Q2 Limitless** *(2023.04.01 - 2023.06.30)*
+
+Each milestone is planned ahead, which ideas are covered in it, still we are flexible to include new idea or reschedule
+already planned ones.
 
 ## Stream
 

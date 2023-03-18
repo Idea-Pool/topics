@@ -5,30 +5,37 @@ skinparam arrow {
     Color SteelBlue
     FontColor SteelBlue
 }
++[#009eb4]:**Idea Pool Value Stream**
+The way we organize our work;
 
-+[#Plum]:**Idea**
- A professionally significant
- idea or need to be
- covered.;
+++[#Plum]:**Idea**
+A professionally significant
+idea or topic to be
+covered;
 
-++[#Salmon]:**Area**
+++-[#Lavender]:**Area**
 A professional area the
 idea belongs to;
+
++++[#Lavender]:**Milestone**
+The quarter of the year
+during the work is
+planned and performed;
 
 ++[#Turquoise]:**Stream**
 Activities with a shared
 goal to solve a problem or
-provide additional benefits.;
+provide additional benefits;
 
-+++[#PaleTurquoise] Competency Development
++++[#PaleTurquoise] Competency\nDevelopment
 +++[#PaleTurquoise] Cloud
 +++[#PaleTurquoise] Open Source
-+++[#PaleTurquoise] TA Tool Evaluation
++++[#PaleTurquoise] Test Automation\nTool Evaluation
 
 ++[#Gold]:**Format**
 Approaches and processes
 to produce results of
-an initiative.;
+an initiative;
 
 +++[#BlanchedAlmond] Article
 +++[#BlanchedAlmond] Demo
@@ -40,7 +47,7 @@ an initiative.;
 ++[#Lime]: **Artifact**
 Presentable artifacts
 demonstrating information/
-results of the initiatives.;
+results of the initiatives;
 
 +++[#PaleGreen] Article
 +++[#PaleGreen] Meetup
