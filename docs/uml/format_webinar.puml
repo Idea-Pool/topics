@@ -32,9 +32,9 @@ note right
     The idea is clear, the trainer
     is identified, and the idea is
     planned to be included in
-    an upcoming sprint/month
+    an upcoming milestone
 end note
-..>[The given\n**sprint/month**\narrives] In progress
+..>[Milestone starts] In progress
 note left
     The presentation and additional
     artifacts (code) is created by
