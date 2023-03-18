@@ -71,10 +71,10 @@ e.g., `area:test-automation`).
 
 ## Milestone
 
-When an idea is ready to work on, it is planned for a **milestone**. A milestone is usually a given quarter of the year,
-starting at the first day of the quarter, and ends at the last.
+When an idea is ready to work on, it is planned for a **milestone**.
 
-An example milestone: **2023 Q2 Limitless** *(2023.04.01 - 2023.06.30)*
+A milestone is usually a given quarter of the year with its **name**, starting at the first day of the quarter, and ends
+at the last, for example: **2023 Q2 Limitless** *(2023.04.01 - 2023.06.30)*
 
 Each milestone is planned ahead, which ideas are covered in it, still we are flexible to include new idea or reschedule
 already planned ones.
