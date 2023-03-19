@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "process": "npm-run-all process:*",
+    "force-process": "npm run process -- -- --force",
+    "process": "npm-run-all \"process:toc {@}\" \"process:puml {@}\" --",
     "process:toc": "markdown-toc -i docs/*.md",
     "process:puml": "node scripts/puml.js",
     "prepare": "husky install"
