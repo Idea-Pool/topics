@@ -1,10 +1,13 @@
 @startuml
 
-title Webinar Format Process
-
 skinparam defaultFontName Ubuntu Light
 skinparam backgroundColor transparent
-skinparam titleFontColor SteelBlue
+
+skinparam caption {
+    FontColor SteelBlue
+    FontStyle italic
+    FontSize 10pt
+}
 
 skinparam activity {
     BackgroundColor PowderBlue
@@ -22,6 +25,8 @@ skinparam note {
     BackgroundColor AliceBlue
     FontSize 10
 }
+
+caption fig. process of the Webinar Format
 
 note right
     A topic arise
