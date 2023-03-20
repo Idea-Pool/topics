@@ -154,7 +154,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.svg).
 
 As the result of a TBD, the following artifacts might be created:
 
@@ -168,7 +168,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.svg).
 
 As the result of a TBD, the following artifacts might be created:
 
@@ -182,7 +182,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.svg).
 
 As the result of a TBD, the following artifacts might be created:
 
@@ -199,7 +199,7 @@ potential to involve more collaboration. Typically, software ideas are covered w
 
 The main process of this format:
 
-![Workshop-Process](./uml/format_project.png).
+![Workshop-Process](./uml/format_project.svg).
 
 As the result of a project, the following artifacts might be created:
 
@@ -217,7 +217,7 @@ questions related to it.
 
 The main process of this format:
 
-![Webinar-Process](./uml/format_webinar.png).
+![Webinar-Process](./uml/format_webinar.svg).
 
 As the result of a webinar, the following artifacts might be created:
 
@@ -234,7 +234,7 @@ In the **workshop** format, a primarily offline event is organized, to cover the
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.svg).
 
 As the result of a workshop, the following artifacts might be created:
 
