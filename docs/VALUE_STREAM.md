@@ -195,7 +195,8 @@ For more information about the format, please turn to [Sandor Orosz][sorosz].
 In the **project** format, a small project is organized around the idea to cover it and achieve its goal.
 
 Usually, those ideas are targets to be delivered with a project, that are more complex, time-consuming or holds the
-potential to involve more collaboration. Typically, software ideas are covered with projects.
+potential to involve more collaboration. Typically, software ideas are covered with projects, for
+example [GherKing][gherking].
 
 The main process of this format:
 
@@ -206,7 +207,8 @@ As the result of a project, the following artifacts might be created:
 - An [article](#article) to summarize the work done and the result of the project,
 - A [meetup](#meetup) and a [talk](#talk) to demonstrate the project,
 - A [video](#video) recording the meetup,
-- A [site](#site) (documentation) or a [software](#software) (package, PoC) as the main delivered artifact of the project.
+- A [site](#site) (documentation) or a [software](#software) (package, PoC) as the main delivered artifact of the
+  project.
 
 For more information about the format, please turn to [Laszlo Szikszai][szikszail].
 
