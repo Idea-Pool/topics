@@ -1,6 +1,6 @@
 @startwbs
 
-!include http://cdn.ideapool.community/puml-theme-idea-pool.puml
+!theme idea-pool from .
 
 caption fig. Idea Pool Value Stream
 
