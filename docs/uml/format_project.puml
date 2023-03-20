@@ -4,6 +4,7 @@ title Project Format Process
 
 skinparam defaultFontName Ubuntu Light
 skinparam backgroundColor transparent
+skinparam titleFontColor SteelBlue
 
 skinparam activity {
     BackgroundColor PowderBlue

@@ -4,6 +4,8 @@ title Idea Pool Value Stream
 
 skinparam defaultTextAlignment center
 skinparam backgroundColor transparent
+skinparam titleFontColor SteelBlue
+
 skinparam arrow {
     Color SteelBlue
     FontColor SteelBlue
