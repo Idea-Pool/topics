@@ -1,14 +1,15 @@
 const fs = require('fs');
-const crypto = require('crypto');
-const path = require('path');
 const puml = require('node-plantuml');
 const {default: fetch} = require('node-fetch');
+const {HashStore} = require('./hash_store');
 
 const BASE = 'docs/uml/';
 
 function encodePuml(input) {
     return new Promise((resolve, reject) => {
-        puml.encode(input, {}, (err, data) => {
+        puml.encode(input, {
+            include: BASE,
+        }, (err, data) => {
             if (err) {
                 reject(err);
             } else {
@@ -18,44 +19,16 @@ function encodePuml(input) {
     });
 }
 
-class HashStore {
-    constructor() {
-        if (fs.existsSync(this.HASH_STORE_FILE)) {
-            this.hashes = JSON.parse(fs.readFileSync(this.HASH_STORE_FILE, 'utf-8'));
-        } else {
-            this.hashes = {};
-        }
-    }
-
-    get HASH_STORE_FILE() {
-        return path.join(__dirname, '..', '.hash.json');
-    }
-
-    hashFile(file) {
-        const fileBuffer = fs.readFileSync(file);
-        const hashSum = crypto.createHash('sha256');
-        hashSum.update(fileBuffer);
-        const hex = hashSum.digest('hex');
-        if (hex === this.hashes[file]) {
-            return false;
-        }
-        this.hashes[file] = hex;
-        return true;
-    }
-
-    flush() {
-        fs.writeFileSync(
-            this.HASH_STORE_FILE,
-            JSON.stringify(this.hashes, null, 2),
-            'utf-8',
-        );
-    }
-}
 
 class PUMLConverter {
     constructor(file, hashStore) {
         this.sourceFile = file;
         this.updated = hashStore.hashFile(file);
+    }
+
+    static readFiles(directory) {
+        return fs.readdirSync(directory)
+            .filter(f => /^(?!puml-theme-).*\.pu?ml$/.test(f));
     }
 
     get png() {
@@ -96,7 +69,7 @@ class PUMLConverter {
     }
 }
 
-const files = fs.readdirSync(BASE).filter(f => /\.puml$/.test(f));
+const files = PUMLConverter.readFiles(BASE);
 (async () => {
     const hashStore = new HashStore();
     for (const f of files) {

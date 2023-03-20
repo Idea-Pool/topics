@@ -1,18 +1,6 @@
 @startwbs
 
-skinparam defaultTextAlignment center
-skinparam backgroundColor transparent
-
-skinparam caption {
-    FontColor SteelBlue
-    FontStyle italic
-    FontSize 10pt
-}
-
-skinparam arrow {
-    Color SteelBlue
-    FontColor SteelBlue
-}
+!include http://cdn.ideapool.community/puml-theme-idea-pool.puml
 
 caption fig. Idea Pool Value Stream
 
