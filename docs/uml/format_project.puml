@@ -23,66 +23,93 @@ skinparam note {
 note right
     A topic arise
 end note
+
 (*) -->[Submission] Draft
+
 note left
     An Idea (issue) is created
 end note
--->[Clarification] Ready
+
+-->[Clarification] Clear
+
 note right
     The idea, the main goal,
-    the expected result, and the
+    the expected results, and the
     required effort is clarified
 end note
--->[Advertisement] Sourced
-note right
+
+-->[Advertisement] Ready
+
+note left
     The contributors are
     identified and the kick-off
     is planned for a milestone
 end note
+
 ..>[Milestone starts] In progress
+-left->[Iterations] In progress
+
 note left
-    The presentation and additional
-    artifacts (code) is created by
-    the trainer, and reviewed by
-    at least one of the staff members
+    The work in the project is
+    organized using the chosen
+    SDLC (SCRUM, KanBan, WaterFall)
 end note
---> TBD
-note right
-    An event is created on the
-    WeAreCommunity page and
-    registration is enabled
-end note
-..>[The webinar\n**date**\narrives] Conducted
+
+..>[Implementation is done] Delivered
+
 note left
-    The webinar is conducted at
-    the given date/time, all the
-    questions answered or followed
-    up, the recording and slides
-    are available
+    The work in the project done,
+    the planned software/features
+    are delivered
 end note
+
+if "Meetup is needed?" then
+    -right->[Yes] Scheduled
+
+    note right
+        An event is created on the
+        WeAreCommunity page and
+        registration is enabled
+    end note
+
+    ..>[The webinar\n**date**\narrives] Conducted
+
+    note right
+        The webinar is conducted at
+        the given date/time, all the
+        questions answered or followed
+        up, the recording and slides
+        are available and uploaded
+        to VideoPortal and the talk
+    end note
+
+    --> === B1 ===
+else
+    -->[No] === B1 ===
+endif
+
 if "Summary article is needed?" then
     -right->[Yes] In summary
+
     note right
         An article is created on the
         WeAreCommunity page,
-        summarizing the webinar.
+        summarizing the project
     end note
-    -->[Administration] Done
+
+    --> === B2 ===
 else
-    -->[No, Administration] Done
+    -->[No] === B2 ===
 endif
-note left
-    The recording is uploaded to
-    VideoPortal and the talk,
-    alongside with the slides and
-    link to the source code
-    (if created)
-end note
+
+-->[Administration] Done
 ..> (*)
+
 note right
     We collect statistics and
-    feedback about the webinar:
-    views, questions, speaker badge, etc
+    feedback about the project,
+    based on the artifacts:
+    views, questions, speaker badge, etc.
 end note
 
 @enduml
