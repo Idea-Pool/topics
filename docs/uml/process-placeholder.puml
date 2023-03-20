@@ -1,4 +1,6 @@
-@startuml TBD Format Process
+@startuml
+
+title TBD Format Process
 
 skinparam defaultFontName Ubuntu Light
 skinparam backgroundColor transparent
@@ -23,11 +25,15 @@ skinparam note {
 note right
     A topic arise
 end note
+
 (*) -->[Submission] Draft
+
 note left
     An Idea (issue) is created
 end note
+
 -->[Clarification] Ready
+
 note right
     The idea is clear,
     ...,
@@ -35,9 +41,13 @@ note right
     planned to be included in
     an upcoming milestone
 end note
+
 ..>[Milestone starts] In progress
+
 ..>TBD
+
 -->[Administration] Done
+
 note right
     The recording is uploaded to
     VideoPortal and the talk,
@@ -45,7 +55,9 @@ note right
     link to the source code
     (if created)
 end note
+
 ..> (*)
+
 note left
     We collect statistics and
     feedback about the webinar:

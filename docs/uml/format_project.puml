@@ -1,4 +1,6 @@
-@startuml Project Format Process
+@startuml
+
+title Project Format Process
 
 skinparam defaultFontName Ubuntu Light
 skinparam backgroundColor transparent

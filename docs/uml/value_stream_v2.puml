@@ -1,10 +1,14 @@
-@startwbs Idea Pool Value Stream
+@startwbs
+
+title Idea Pool Value Stream
+
 skinparam defaultTextAlignment center
 skinparam backgroundColor transparent
 skinparam arrow {
     Color SteelBlue
     FontColor SteelBlue
 }
+
 +[#009eb4]:**Idea Pool Value Stream**
 The way we organize our work;
 
