@@ -11,7 +11,9 @@ The markdown files and other assets should be in the `docs` folder.
 
 ### Usage
 
-1. Install the dependencies: `npm install`
+1. Install the dependencies:
+    1. Java
+    2. NPM packages: `npm install`
 2. Make the necessary changes:
     1. Edit the markdown files
     2. Add [PlantUML](https://plantuml.com/) diagrams if necessary to the `docs/uml` folder.

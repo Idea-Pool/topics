@@ -1,9 +1,22 @@
 const fs = require('fs');
 const crypto = require('crypto');
 const path = require('path');
+const puml = require('node-plantuml');
 const {default: fetch} = require('node-fetch');
 
 const BASE = 'docs/uml/';
+
+function encodePuml(input) {
+    return new Promise((resolve, reject) => {
+        puml.encode(input, {}, (err, data) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(data);
+            }
+        });
+    });
+}
 
 class HashStore {
     constructor() {
@@ -53,14 +66,6 @@ class PUMLConverter {
         return this.sourceFile.replace('.puml', '.svg');
     }
 
-    get puml() {
-        return fs.readFileSync(this.sourceFile, 'utf-8');
-    }
-
-    get hex() {
-        return Buffer.from(this.puml, 'utf-8').toString('hex');
-    }
-
     async toPNG() {
         return this._convertTo('png');
     }
@@ -75,7 +80,8 @@ class PUMLConverter {
 
     async _convertTo(type) {
         if (this._needToGenerate(type)) {
-            const response = await fetch(`http://www.plantuml.com/plantuml/${type}/~h${this.hex}`);
+            const gen = await encodePuml(this.sourceFile);
+            const response = await fetch(`http://www.plantuml.com/plantuml/${type}/${gen}`);
             response.body.pipe(fs.createWriteStream(this[type]));
             console.log('Added', this[type]);
         } else {
