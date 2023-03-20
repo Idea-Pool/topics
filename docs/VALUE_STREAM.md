@@ -192,15 +192,21 @@ For more information about the format, please turn to [Sandor Orosz][sorosz].
 
 ### Project
 
-In the **TBD** format, TBD, to cover the idea.
+In the **project** format, a small project is organized around the idea to cover it and achieve its goal.
+
+Usually, those ideas are targets to be delivered with a project, that are more complex, time-consuming or holds the
+potential to involve more collaboration. Typically, software ideas are covered with projects.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/format_project.png).
 
-As the result of a TBD, the following artifacts might be created:
+As the result of a project, the following artifacts might be created:
 
-- [TBD](#tbd)
+- An [article](#article) to summarize the work done and the result of the project,
+- A [meetup](#meetup) and a [talk](#talk) to demonstrate the project,
+- A [video](#video) recording the meetup,
+- A [site](#site) (documentation) or a [software](#software) (package, PoC) as the main delivered artifact of the project.
 
 For more information about the format, please turn to [Laszlo Szikszai][szikszail].
 

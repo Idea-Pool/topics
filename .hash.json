@@ -1,6 +1,7 @@
 {
-  "docs/uml/format_webinar.puml": "8cb9df9fe355c304b34bd90853f250b465f2e77559576e7d8becb8fd5545dffa",
-  "docs/uml/process-placeholder.puml": "3f2df3c4e6b9c5512ebb16afd9641066606b804ee186c81ebcb4ca3853870b2c",
+  "docs/uml/format_webinar.puml": "3b0b2e20d4743ff9d32216d7017a184f775fbb5013226e8ceebb9636d81aa1ae",
+  "docs/uml/process-placeholder.puml": "843e67cf6b3b66a82b23efd62d870119b4b6433a7610f8678353875711b3d786",
   "docs/uml/value_stream.puml": "fc3247170a41c0b842624baeec740cbd1e9737d84c31467df258d3caf76c9691",
-  "docs/uml/value_stream_v2.puml": "c3e01a4e37580790e31da361cae004720d16d3cdcc6b50f85a63f13ec52babe9"
+  "docs/uml/value_stream_v2.puml": "c3e01a4e37580790e31da361cae004720d16d3cdcc6b50f85a63f13ec52babe9",
+  "docs/uml/format_project.puml": "695616af6d0a6adb15d96377cfbe8a01b43fe7f2ee66de590012961827c01403"
 }
