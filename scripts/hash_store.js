@@ -14,7 +14,7 @@ class HashStore {
     }
 
     hashContent(file, content) {
-        if (content instanceof Buffer) {
+        if (!(content instanceof Buffer)) {
             content = Buffer.from(content);
         }
         const hashSum = crypto.createHash('sha256');
