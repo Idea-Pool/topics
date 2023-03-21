@@ -23,7 +23,8 @@ function encodePuml(input) {
 class PUMLConverter {
     constructor(file, hashStore) {
         this.sourceFile = file;
-        this.updated = hashStore.hashFile(file);
+        this.sourceFileContent = this.parse();
+        this.updated = hashStore.hashContent(this.sourceFile, this.sourceFileContent);
     }
 
     parse() {
@@ -62,7 +63,7 @@ class PUMLConverter {
 
     async _convertTo(type) {
         if (this._needToGenerate(type)) {
-            const gen = await encodePuml(this.parse());
+            const gen = await encodePuml(this.sourceFileContent);
             const response = await fetch(`http://www.plantuml.com/plantuml/${type}/${gen}`);
             response.body.pipe(fs.createWriteStream(this[type]));
             console.log('Added', this[type]);

@@ -13,16 +13,23 @@ class HashStore {
         }
     }
 
-    hashFile(file) {
-        const fileBuffer = fs.readFileSync(file);
+    hashContent(file, content) {
+        if (content instanceof Buffer) {
+            content = Buffer.from(content);
+        }
         const hashSum = crypto.createHash('sha256');
-        hashSum.update(fileBuffer);
+        hashSum.update(content);
         const hex = hashSum.digest('hex');
         if (hex === this.hashes[file]) {
             return false;
         }
         this.hashes[file] = hex;
         return true;
+    }
+
+    hashFile(file) {
+        const fileBuffer = fs.readFileSync(file);
+        return this.hashContent(file, fileBuffer);
     }
 
     flush() {

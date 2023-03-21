@@ -60,11 +60,14 @@ All of the ideas belong to at least one of the professional **areas**.
 
 Such areas can be:
 
-* Software Development
-* Testing
-* Test Automation
 * General
+* Hardware
+* JavaScript
+* Management
 * Soft Skills
+* Software Development
+* Test Automation
+* Testing
 
 The area(s) of a given idea is marked with the `area:{name}` labels on the issue of the idea (
 e.g., `area:test-automation`).
