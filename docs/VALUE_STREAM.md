@@ -61,6 +61,7 @@ All of the ideas belong to at least one of the professional **areas**.
 Such areas can be:
 
 * General
+* DevOps
 * Hardware
 * JavaScript
 * Management
