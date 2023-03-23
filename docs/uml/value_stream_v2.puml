@@ -1,10 +1,9 @@
-@startwbs Idea Pool Value Stream
-skinparam defaultTextAlignment center
-skinparam backgroundColor transparent
-skinparam arrow {
-    Color SteelBlue
-    FontColor SteelBlue
-}
+@startwbs
+
+!theme idea-pool from .
+
+caption fig. Idea Pool Value Stream
+
 +[#009eb4]:**Idea Pool Value Stream**
 The way we organize our work;
 

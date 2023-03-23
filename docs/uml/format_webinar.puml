@@ -1,53 +1,47 @@
-@startuml Webinar Format Process
+@startuml
 
-skinparam defaultFontName Ubuntu Light
-skinparam backgroundColor transparent
+!theme idea-pool from .
 
-skinparam activity {
-    BackgroundColor PowderBlue
-    StartColor ForestGreen
-    EndColor ForestGreen
-    FontStyle bold
-}
-
-skinparam arrow {
-    Color SteelBlue
-    FontColor SteelBlue
-}
-
-skinparam note {
-    BackgroundColor AliceBlue
-    FontSize 10
-}
+caption fig. process of the Webinar Format
 
 note right
     A topic arise
 end note
+
 (*) -->[Submission] Draft
+
 note left
     An Idea (issue) is created
 end note
+
 -->[Clarification] Ready
+
 note right
     The idea is clear, the trainer
     is identified, and the idea is
     planned to be included in
     an upcoming milestone
 end note
+
 ..>[Milestone starts] In progress
+
 note left
     The presentation and additional
     artifacts (code) is created by
     the trainer, and reviewed by
     at least one of the staff members
 end note
+
 -->[Organization] Scheduled
+
 note right
     An event is created on the
     WeAreCommunity page and
     registration is enabled
 end note
+
 ..>[The webinar\n**date**\narrives] Conducted
+
 note left
     The webinar is conducted at
     the given date/time, all the
@@ -55,17 +49,21 @@ note left
     up, the recording and slides
     are available
 end note
+
 if "Summary article is needed?" then
     -right->[Yes] In summary
+
     note right
         An article is created on the
         WeAreCommunity page,
         summarizing the webinar.
     end note
+
     -->[Administration] Done
 else
     -->[No, Administration] Done
 endif
+
 note left
     The recording is uploaded to
     VideoPortal and the talk,
@@ -73,7 +71,9 @@ note left
     link to the source code
     (if created)
 end note
+
 ..> (*)
+
 note right
     We collect statistics and
     feedback about the webinar:

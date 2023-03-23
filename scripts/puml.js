@@ -1,48 +1,44 @@
 const fs = require('fs');
-const crypto = require('crypto');
 const path = require('path');
+const puml = require('node-plantuml');
 const {default: fetch} = require('node-fetch');
+const {HashStore} = require('./hash_store');
 
 const BASE = 'docs/uml/';
 
-class HashStore {
-    constructor() {
-        if (fs.existsSync(this.HASH_STORE_FILE)) {
-            this.hashes = JSON.parse(fs.readFileSync(this.HASH_STORE_FILE, 'utf-8'));
-        } else {
-            this.hashes = {};
-        }
-    }
-
-    get HASH_STORE_FILE() {
-        return path.join(__dirname, '..', '.hash.json');
-    }
-
-    hashFile(file) {
-        const fileBuffer = fs.readFileSync(file);
-        const hashSum = crypto.createHash('sha256');
-        hashSum.update(fileBuffer);
-        const hex = hashSum.digest('hex');
-        if (hex === this.hashes[file]) {
-            return false;
-        }
-        this.hashes[file] = hex;
-        return true;
-    }
-
-    flush() {
-        fs.writeFileSync(
-            this.HASH_STORE_FILE,
-            JSON.stringify(this.hashes, null, 2),
-            'utf-8',
-        );
-    }
+function encodePuml(input) {
+    return new Promise((resolve, reject) => {
+        puml.encode(input, {
+            include: BASE,
+        }, (err, data) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(data);
+            }
+        });
+    });
 }
 
 class PUMLConverter {
     constructor(file, hashStore) {
         this.sourceFile = file;
-        this.updated = hashStore.hashFile(file);
+        this.sourceFileContent = this.parse();
+        this.updated = hashStore.hashContent(this.sourceFile, this.sourceFileContent);
+    }
+
+    parse() {
+        const pumlContent = fs.readFileSync(this.sourceFile, 'utf-8');
+        const THEME_RX = /^!theme (\S+) from (\S+)$/gmi;
+        return pumlContent.replace(THEME_RX, (_, theme, dir) => {
+            const themePath = path.join(BASE, dir, `puml-theme-${theme}.puml`);
+            return fs.readFileSync(themePath, 'utf-8');
+        });
+    }
+
+    static readFiles(directory) {
+        return fs.readdirSync(directory)
+            .filter(f => /^(?!puml-theme-).*\.pu?ml$/.test(f));
     }
 
     get png() {
@@ -51,14 +47,6 @@ class PUMLConverter {
 
     get svg() {
         return this.sourceFile.replace('.puml', '.svg');
-    }
-
-    get puml() {
-        return fs.readFileSync(this.sourceFile, 'utf-8');
-    }
-
-    get hex() {
-        return Buffer.from(this.puml, 'utf-8').toString('hex');
     }
 
     async toPNG() {
@@ -75,7 +63,8 @@ class PUMLConverter {
 
     async _convertTo(type) {
         if (this._needToGenerate(type)) {
-            const response = await fetch(`http://www.plantuml.com/plantuml/${type}/~h${this.hex}`);
+            const gen = await encodePuml(this.sourceFileContent);
+            const response = await fetch(`http://www.plantuml.com/plantuml/${type}/${gen}`);
             response.body.pipe(fs.createWriteStream(this[type]));
             console.log('Added', this[type]);
         } else {
@@ -90,7 +79,7 @@ class PUMLConverter {
     }
 }
 
-const files = fs.readdirSync(BASE).filter(f => /\.puml$/.test(f));
+const files = PUMLConverter.readFiles(BASE);
 (async () => {
     const hashStore = new HashStore();
     for (const f of files) {

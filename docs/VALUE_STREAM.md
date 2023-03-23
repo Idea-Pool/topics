@@ -60,11 +60,15 @@ All of the ideas belong to at least one of the professional **areas**.
 
 Such areas can be:
 
-* Software Development
-* Testing
-* Test Automation
 * General
+* DevOps
+* Hardware
+* JavaScript
+* Management
 * Soft Skills
+* Software Development
+* Test Automation
+* Testing
 
 The area(s) of a given idea is marked with the `area:{name}` labels on the issue of the idea (
 e.g., `area:test-automation`).
@@ -154,7 +158,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.svg).
 
 As the result of a TBD, the following artifacts might be created:
 
@@ -168,7 +172,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.svg).
 
 As the result of a TBD, the following artifacts might be created:
 
@@ -182,7 +186,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.svg).
 
 As the result of a TBD, the following artifacts might be created:
 
@@ -192,15 +196,23 @@ For more information about the format, please turn to [Sandor Orosz][sorosz].
 
 ### Project
 
-In the **TBD** format, TBD, to cover the idea.
+In the **project** format, a small project is organized around the idea to cover it and achieve its goal.
+
+Usually, those ideas are targets to be delivered with a project, that are more complex, time-consuming or holds the
+potential to involve more collaboration. Typically, software ideas are covered with projects, for
+example [GherKing][gherking].
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/format_project.svg).
 
-As the result of a TBD, the following artifacts might be created:
+As the result of a project, the following artifacts might be created:
 
-- [TBD](#tbd)
+- An [article](#article) to summarize the work done and the result of the project,
+- A [meetup](#meetup) and a [talk](#talk) to demonstrate the project,
+- A [video](#video) recording the meetup,
+- A [site](#site) (documentation) or a [software](#software) (package, PoC) as the main delivered artifact of the
+  project.
 
 For more information about the format, please turn to [Laszlo Szikszai][szikszail].
 
@@ -211,7 +223,7 @@ questions related to it.
 
 The main process of this format:
 
-![Webinar-Process](./uml/format_webinar.png).
+![Webinar-Process](./uml/format_webinar.svg).
 
 As the result of a webinar, the following artifacts might be created:
 
@@ -228,7 +240,7 @@ In the **workshop** format, a primarily offline event is organized, to cover the
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.png).
+![Workshop-Process](./uml/process-placeholder.svg).
 
 As the result of a workshop, the following artifacts might be created:
 

@@ -1,0 +1,25 @@
+skinparam defaultFontName Ubuntu Light
+skinparam backgroundColor transparent
+
+skinparam caption {
+    FontColor SteelBlue
+    FontStyle italic
+    FontSize 10pt
+}
+
+skinparam activity {
+    BackgroundColor PowderBlue
+    StartColor ForestGreen
+    EndColor ForestGreen
+    FontStyle bold
+}
+
+skinparam arrow {
+    Color SteelBlue
+    FontColor SteelBlue
+}
+
+skinparam note {
+    BackgroundColor AliceBlue
+    FontSize 10
+}
