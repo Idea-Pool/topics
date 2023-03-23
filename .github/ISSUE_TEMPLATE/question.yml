@@ -1,0 +1,22 @@
+name: "Ask a question"
+description: "Choose this option when you have a question to clarify."
+title: "[Question]: "
+labels: ["draft", "question"]
+assignees:
+  - idea-pool-staff-team
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome!
+
+        Thank you for reaching out to the Idea Pool Community!
+        Please complete the following form with your question.
+
+        After you submit your question, one of our [@idea-pool-staff-team](https://github.com/orgs/Idea-Pool/teams/idea-pool-staff-team) members will contact you regarding it.
+  - type: textarea
+    id: question
+    attributes:
+      label: "Question"
+      description: "Please share your question and any more details about it."
+      placeholder: "Question"
