@@ -1,0 +1,158 @@
+name: "Propose a new idea/topic"
+description: "Choose this option when you have a new idea/topic you want to cover in Idea Pool."
+title: "[Idea]: "
+labels: [ "draft" ]
+assignees:
+  - idea-pool-staff-team
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome!
+        
+        Please complete the following form to describe your idea and your plans/expectations for covering it.
+        
+        We base our processes on the **Idea Pool Value Stream**, and all details you provide fit into it. You can find more information about it here: [Idea Pool Value Stream](https://github.com/Idea-Pool/topics/blob/main/docs/VALUE_STREAM.md).
+        
+        The information you provide here is not carved in stone; you can update it later. After you submit your idea, one of our [@idea-pool-staff-team](https://github.com/orgs/Idea-Pool/teams/idea-pool-staff-team) members will contact you regarding your proposal.
+
+        Thank you for proposing a new idea to Idea Pool Community!
+  - type: markdown
+    attributes:
+      value: |
+        ## 1. General
+        
+        Please share the main title and detailed description of the idea you are proposing.
+        You can include details like:
+        * What are the questions to be answered by this idea?
+        * What is the reason of creating this idea?
+        * What are the key elements of this idea?
+        * Who is your potential audience?
+        * What benefits does this idea give the audience/participants?
+        * What tasks are planned in scope of this idea?
+        * List of any additional links and resources.
+        
+        The more information you share, the more we can understand your idea and how we can help you to cover it.
+  - type: input
+    id: title
+    attributes:
+      label: "1.1. Title"
+      description: "Set a concise title or description of the idea."
+      placeholder: "Title"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "1.2. Details"
+      description: "Provide more details about the idea."
+      placeholder: "Description, Goals, Benefits, Tasks, Links"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## 2. Area
+        
+        All of the ideas belong to at least one of the professional areas. By providing the area, you help us to identify experts, contributors, and target audiences for your idea.
+        
+        * If you are unsure which to choose, please select *None*, and we will help you identify the proper one after submitting your idea. 
+        * You can also propose a new area by selecting the *Other, new area*, if you are definite about the area but it is not in the list.
+  - type: dropdown
+    id: area
+    attributes:
+      label: "2.1. Area"
+      description: "Select one of the professional area this idea belongs to."
+      options:
+        - General
+        - DevOps
+        - Hardware
+        - JavaScript
+        - Management
+        - Soft Skills
+        - Software Development
+        - Test Automation
+        - Testing
+        - Other, new area
+  - type: input
+    id: other-area
+    attributes:
+      label: "2.2. New area"
+      description: "If you don't find the proper area, propose a new professional area."
+      placeholder: "New professional area"
+  - type: markdown
+    attributes:
+      value: |
+        ## 3. Stream
+        
+        All of the ideas and activities belong to one of our streams. A stream is a group of activities with a shared goal.
+        
+        * If you are unsure which to choose, please select *None*, and we will help you identify the proper one after submitting your idea.
+  - type: dropdown
+    id: stream
+    attributes:
+      label: "3.1. Stream"
+      description: "Select one of our streams this idea should belong to."
+      options:
+        - Competency Development (assisting engineer to grow professionally)
+        - Cloud (aiding engineers to gather experience with cloud)
+        - Open Source (deepening Open Source culture within engineers)
+        - Test Automation Tool Evaluation (aiding engineers with the test automation tool evaluation practices)
+  - type: markdown
+    attributes:
+      value: |
+        ## 4. Format(s)
+        
+        Any idea can be realized in one of our formats which are approaches and processes to produce stream results. By providing the format, you help us to handle your idea properly, based on format-specific processes.
+        
+        * If you are unsure which to choose, please select *None*, and we will help you identify the proper one after submitting your idea. 
+        * You can also propose a new format by selecting the *Other, new format*, if you are definite about the format but it is not in the list.
+  - type: dropdown
+    id: format
+    attributes:
+      label: "4.1. Format"
+      description: "Select one or more of the following formats to deliver this idea."
+      options:
+        - Article (covering the idea in a written format)
+        - Demo (demonstrating the idea in an online event)
+        - Minutes (covering the idea with an explanation/tutorial video)
+        - Project (organizing a small project around the idea, e.g. a small software delivery)
+        - Webinar (covering the idea in an online event to teach, share experience and best practices)
+        - Workshop (working together offline during an offline workshop)
+        - Other, new format
+      multiple: true
+  - type: input
+    id: other-format
+    attributes:
+      label: "4.2. New format"
+      description: "If you don't find the proper format, propose a new format."
+      placeholder: "New format"
+  - type: markdown
+    attributes:
+      value: |
+        ## 5. Artifact(s)
+        
+        The artifacts are achievable and presentable results produced in the scope of an idea that demonstrates information.
+        
+        * If you are unsure which to choose, please select *None*, and we will help you identify the proper one after submitting your idea. 
+        * You can also propose a new artifact by selecting the *Other, new artifact*, if you are definite about the artifact but it is not in the list.
+  - type: dropdown
+    id: artifact
+    attributes:
+      label: "5.1. Artifact"
+      description: "Select one or more of the following artifacts to be created in the scope of this idea."
+      options:
+        - Article (an article on the Idea Pool WeAreCommunity page)
+        - Meetup (an event on the Idea Pool WeAreCommunity page)
+        - Site (a static web page or a dynamic web application)
+        - Software (a source code and/or a delivered software/package)
+        - Talk (a talk on the Idea Pool WeAreCommunity page)
+        - Video (a recording or a manually constructed/edited video)
+        - Other, new artifact
+      multiple: true
+  - type: input
+    id: other-artifact
+    attributes:
+      label: "5.2. New artifact"
+      description: "If you don't find the proper artifact, propose a new artifact."
+      placeholder: "New artifact"
