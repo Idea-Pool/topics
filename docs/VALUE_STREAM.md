@@ -131,9 +131,12 @@ For more information about the stream, please turn to [Laszlo Szikszai][szikszai
 
 ### Test Automation Tool Evaluation (TA Tool Evaluation)
 
-* The **TA Tool Evaluation stream** aims to...
+* The **TA Tool Evaluation stream** aims to give an overview for test automation engineers, both about standard test automation tools used in various technologies and the evaluation process.
 * The **benefits** of participating in the TA Tool Evaluation stream include
-    * ...
+    * Gaining experience in tool selection / practical evaluation
+    * Gaining insight into how to prepare a structured and objective tool evaluation
+
+It is recommended to read the following article: [Test Automation Tool Evaluation | Idea Pool Projects](https://wearecommunity.io/communities/idea-pool/articles/296)
 
 For more information about the stream, please turn to [Sandor Orosz][sorosz].
 
