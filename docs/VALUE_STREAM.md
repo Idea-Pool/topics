@@ -136,7 +136,7 @@ For more information about the stream, please turn to [Laszlo Szikszai][szikszai
     * Gaining experience in tool selection / practical evaluation
     * Gaining insight into how to prepare a structured and objective tool evaluation
 
-It is recommended to read the following article: [Test Automation Tool Evaluation | Idea Pool Projects](https://wearecommunity.io/communities/idea-pool/articles/296)
+It is recommended to read the following article: [Test Automation Tool Evaluation | Idea Pool Projects][article-ta-tool]
 
 For more information about the stream, please turn to [Sandor Orosz][sorosz].
 
@@ -346,3 +346,5 @@ All our videos are hosted on [VideoPortal][videoportal] and synchronized to [WeA
 [awstesting]: https://aws-testing.ideapool.community/
 
 [event]: https://wearecommunity.io/events/ai-based-image-generation-with-openai-s-dall-e-api
+
+[article-ta-tool]: https://wearecommunity.io/communities/idea-pool/articles/296
