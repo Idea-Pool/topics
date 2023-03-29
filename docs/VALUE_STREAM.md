@@ -182,15 +182,18 @@ For more information about the format, please turn to [Gabor Marton][gabor].
 
 ### Minutes
 
-In the **TBD** format, TBD, to cover the idea.
+In the **Minutes** format, a short, to-the-point video is created to cover the idea.
+
+The Idea Pool Minutes is rather an offline creative work than a classical tech talk or meetup. The expected output of Minutes is a 1-5 minutes long video animation including various techniques and tricks to highlight your idea.
+The Minutes is an answer to a question that can be answered within a short, tutorial-like video by spectacular and talkative visual elements. The focus is on providing a summary of a topic and highlights the key points in an easily digestible format.
 
 The main process of this format:
 
 ![Workshop-Process](./uml/process-placeholder.svg).
 
-As the result of a TBD, the following artifacts might be created:
+As the result of a Minutes, the following artifacts might be created:
 
-- [TBD](#tbd)
+- A [video](#video) composed/recorded about the idea to be shared
 
 For more information about the format, please turn to [Sandor Orosz][sorosz].
 
