@@ -65,6 +65,7 @@ body:
       description: "Select one of the professional area this idea belongs to."
       options:
         - General
+        - AI/ML
         - DevOps
         - Hardware
         - JavaScript
@@ -74,6 +75,7 @@ body:
         - Test Automation
         - Testing
         - Other, new area
+      multiple: true
   - type: input
     id: other-area
     attributes:
