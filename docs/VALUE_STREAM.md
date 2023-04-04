@@ -172,15 +172,19 @@ For more information about the format, please turn to [Milan Horvath][milan].
 
 ### Demo
 
-In the **TBD** format, TBD, to cover the idea.
+A **demo** is a live or recorded presentation that showcases a prototype or working model of a product, service, or concept, with the aim of demonstrating its features, functionality, and potential benefits.
 
 The main process of this format:
 
 ![Workshop-Process](./uml/process-placeholder.svg).
 
-As the result of a TBD, the following artifacts might be created:
+As the result of a demo, the following artifacts might be created:
 
-- [TBD](#tbd)
+- An [article](#article) to summarize the topic of the demo,
+- A [software](#software) (repository) containing the source code used during the demo,
+- A [meetup](#meetup) and a [talk](#talk) to organize the demo,
+- A [video](#video) recording of the demo.
+
 
 For more information about the format, please turn to [Gabor Marton][gabor].
 
