@@ -176,7 +176,7 @@ A **demo** is a live or recorded presentation that showcases a prototype or work
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Workshop-Process](./uml/format_demo.svg).
 
 As the result of a demo, the following artifacts might be created:
 
