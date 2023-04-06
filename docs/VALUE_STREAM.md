@@ -162,11 +162,9 @@ The **article** format provides the opportunity to the author to write a profess
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Workshop-Process](./uml/process-placeholder.svg)
 
-As the result of an article, the following artifacts might be created:
-
-- An [article](#article) to describe the topic.
+As the result an article artifact will be created.
 
 For more information about the format, please turn to [Milan Horvath][milan].
 
@@ -176,7 +174,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Workshop-Process](./uml/process-placeholder.svg)
 
 As the result of a TBD, the following artifacts might be created:
 
@@ -190,7 +188,7 @@ In the **TBD** format, TBD, to cover the idea.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Workshop-Process](./uml/process-placeholder.svg)
 
 As the result of a TBD, the following artifacts might be created:
 
@@ -208,7 +206,7 @@ example, [GherKing][gherking].
 
 The main process of this format:
 
-![Workshop-Process](./uml/format_project.svg).
+![Workshop-Process](./uml/format_project.svg)
 
 As the result of a project, the following artifacts might be created:
 
@@ -227,7 +225,7 @@ questions related to it.
 
 The main process of this format:
 
-![Webinar-Process](./uml/format_webinar.svg).
+![Webinar-Process](./uml/format_webinar.svg)
 
 As the result of a webinar, the following artifacts might be created:
 
@@ -244,7 +242,7 @@ In the **workshop** format, a primarily offline event is organized, to cover the
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Workshop-Process](./uml/process-placeholder.svg)
 
 As the result of a workshop, the following artifacts might be created:
 

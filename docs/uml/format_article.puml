@@ -28,19 +28,16 @@ end note
 -->[Draft article is created] In review
 
 if "Changes requested by reviewer(s)" then
-    -right->[Yes] Update
+    -left->[Yes] In progress
 
-    note right
+    note left
         The author updates the article
         based on the recieved comments
     end note
 
-    --> === B1 ===
 else
-    -->[No] === B1 ===
+    -->[No] Published
 endif
-
--->[Article artifact is approved] Published
 
 note left
     The created article 
