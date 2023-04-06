@@ -1,0 +1,53 @@
+@startuml
+
+!theme idea-pool from .
+
+caption fig. process of the Article Format
+
+note right
+    A topic arise
+end note
+
+(*) -->[Submission] Draft
+
+note left
+    An Idea (issue) is created
+end note
+
+-->[Clarification] Ready
+
+note right
+    The idea is clear, the trainer
+    is identified, and the idea is
+    planned to be included in
+    an upcoming milestone
+end note
+
+..>[Milestone starts] In progress
+
+-->[Draft article is created] In review
+
+if "Changes requested by reviewer(s)" then
+    -right->[Yes] Update
+
+    note right
+        The author updates the article
+        based on the recieved comments
+    end note
+
+    --> === B1 ===
+else
+    -->[No] === B1 ===
+endif
+
+-->[Article artifact is approved] Published
+
+note left
+    The created article 
+    is published to the 
+    WeAreCommunity Idea Pool
+    Articles page
+end note
+
+-->[Administration] Done
+..> (*)

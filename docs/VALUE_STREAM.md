@@ -154,15 +154,15 @@ e.g., `format:workshop`).
 
 ### Article
 
-In the **TBD** format, TBD, to cover the idea.
+In the **article** format, TBD, to cover the idea.
 
 The main process of this format:
 
 ![Workshop-Process](./uml/process-placeholder.svg).
 
-As the result of a TBD, the following artifacts might be created:
+As the result of an article, the following artifacts might be created:
 
-- [TBD](#tbd)
+- An [article](#article) to describe the topic.
 
 For more information about the format, please turn to [Milan Horvath][milan].
 
