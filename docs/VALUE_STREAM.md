@@ -158,7 +158,7 @@ e.g., `format:workshop`).
 
 ### Article
 
-In the **article** format, TBD, to cover the idea.
+The **article** format provides the opportunity to the author to write a professional article about the selected topic.
 
 The main process of this format:
 
