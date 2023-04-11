@@ -61,6 +61,7 @@ All of the ideas belong to at least one of the professional **areas**.
 Such areas can be:
 
 * General
+* AI/ML
 * DevOps
 * Hardware
 * JavaScript
@@ -131,9 +132,12 @@ For more information about the stream, please turn to [Laszlo Szikszai][szikszai
 
 ### Test Automation Tool Evaluation (TA Tool Evaluation)
 
-* The **TA Tool Evaluation stream** aims to...
+* The **TA Tool Evaluation stream** aims to give an overview for test automation engineers, both about standard test automation tools used in various technologies and the evaluation process.
 * The **benefits** of participating in the TA Tool Evaluation stream include
-    * ...
+    * Gaining experience in tool selection / practical evaluation
+    * Gaining insight into how to prepare a structured and objective tool evaluation
+
+It is recommended to read the following article: [Test Automation Tool Evaluation | Idea Pool Projects][article-ta-tool]
 
 For more information about the stream, please turn to [Sandor Orosz][sorosz].
 
@@ -154,29 +158,31 @@ e.g., `format:workshop`).
 
 ### Article
 
-In the **TBD** format, TBD, to cover the idea.
+The **article** format provides the opportunity to the author to write a professional article about the selected topic.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Workshop-Process](./uml/process-placeholder.svg)
 
-As the result of a TBD, the following artifacts might be created:
-
-- [TBD](#tbd)
+As the result an article artifact will be created.
 
 For more information about the format, please turn to [Milan Horvath][milan].
 
 ### Demo
 
-In the **TBD** format, TBD, to cover the idea.
+A **demo** is a live or recorded presentation that showcases a prototype or working model of a product, service, or concept, with the aim of demonstrating its features, functionality, and potential benefits.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Workshop-Process](./uml/format_demo.svg).
 
-As the result of a TBD, the following artifacts might be created:
+As the result of a demo, the following artifacts might be created:
 
-- [TBD](#tbd)
+- An [article](#article) to summarize the topic of the demo,
+- A [software](#software) (repository) containing the source code used during the demo,
+- A [meetup](#meetup) and a [talk](#talk) to organize the demo,
+- A [video](#video) recording of the demo.
+
 
 For more information about the format, please turn to [Gabor Marton][gabor].
 
@@ -207,7 +213,7 @@ example, [GherKing][gherking].
 
 The main process of this format:
 
-![Workshop-Process](./uml/format_project.svg).
+![Workshop-Process](./uml/format_project.svg)
 
 As the result of a project, the following artifacts might be created:
 
@@ -226,7 +232,7 @@ questions related to it.
 
 The main process of this format:
 
-![Webinar-Process](./uml/format_webinar.svg).
+![Webinar-Process](./uml/format_webinar.svg)
 
 As the result of a webinar, the following artifacts might be created:
 
@@ -243,7 +249,7 @@ In the **workshop** format, a primarily offline event is organized, to cover the
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Workshop-Process](./uml/process-placeholder.svg)
 
 As the result of a workshop, the following artifacts might be created:
 
@@ -346,3 +352,5 @@ All our videos are hosted on [VideoPortal][videoportal] and synchronized to [WeA
 [awstesting]: https://aws-testing.ideapool.community/
 
 [event]: https://wearecommunity.io/events/ai-based-image-generation-with-openai-s-dall-e-api
+
+[article-ta-tool]: https://wearecommunity.io/communities/idea-pool/articles/296

@@ -4,5 +4,7 @@
   "docs/uml/value_stream.puml": "fc3247170a41c0b842624baeec740cbd1e9737d84c31467df258d3caf76c9691",
   "docs/uml/value_stream_v2.puml": "59d7d283d2fa23a67f61a3c00b82a85163c97ac46e8c3f33199471bd05dcc5e0",
   "docs/uml/format_project.puml": "a0be618be375a52a14b5241d2f7f10ed3f91515985cf610d45d5670ba902a2ca",
-  "docs/uml/format_minutes.puml": "a895ee2c9a7eb85e4cf0649b6cadaeb6cc91c496e6927e432a5ce1f32cd065ea"
+  "docs/uml/format_minutes.puml": "a895ee2c9a7eb85e4cf0649b6cadaeb6cc91c496e6927e432a5ce1f32cd065ea",
+  "docs/uml/format_article.puml": "1995b3015af40d625ba51749dacbf8cfbba92ae889d8cf5c26d23a98e3b37f24",
+  "docs/uml/format_demo.puml": "3a29f1dea56dcaa5071dfd9e71a45d5c4e43b0a784340de9171bef1df45dafd5"
 }
