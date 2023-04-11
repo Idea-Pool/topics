@@ -189,7 +189,7 @@ The Minutes is an answer to a question that can be answered within a short, tuto
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg).
+![Minutes-Format](./uml/format_minutes.svg).
 
 As the result of a Minutes, the following artifacts might be created:
 

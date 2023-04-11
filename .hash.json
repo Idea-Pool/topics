@@ -3,5 +3,6 @@
   "docs/uml/process-placeholder.puml": "d7c670e5b68bcd41b07879167b85574aa1aad97d189f30f399c86d154d68f374",
   "docs/uml/value_stream.puml": "fc3247170a41c0b842624baeec740cbd1e9737d84c31467df258d3caf76c9691",
   "docs/uml/value_stream_v2.puml": "59d7d283d2fa23a67f61a3c00b82a85163c97ac46e8c3f33199471bd05dcc5e0",
-  "docs/uml/format_project.puml": "a0be618be375a52a14b5241d2f7f10ed3f91515985cf610d45d5670ba902a2ca"
+  "docs/uml/format_project.puml": "a0be618be375a52a14b5241d2f7f10ed3f91515985cf610d45d5670ba902a2ca",
+  "docs/uml/format_minutes.puml": "a895ee2c9a7eb85e4cf0649b6cadaeb6cc91c496e6927e432a5ce1f32cd065ea"
 }
