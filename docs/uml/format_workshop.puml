@@ -26,9 +26,9 @@ end note
 ..>[Milestone starts] In progress
 
 note left
-    The introdutory material with the necessary 
-    artifacts (code, architecture diagram, any
-    useful representation of the problemd) is
+    The introductory material with the necessary
+    supporting documents (code, architecture diagram,
+    any useful representation of the problem) is
     created by the idea owner, and reviewed by
     at least one of the staff members and a key
     contributor
@@ -48,14 +48,22 @@ end note
 
 note left
     The workshop is conducted at
-    the given date/time, all the
-    questions answered or followed
-    up, the recording and slides
-    are available
+    the given date/time, and the
+    collaborators came to a
+    conclusion.
 end note
 
+if "More workshop session needed?" then
+--> [Yes] Scheduled
+else
+--> [No] Resolved
+note right
+    A conclusion has been reached
+end note
+endif
+
 if "Summary article is needed?" then
-    -right->[Yes] In summary
+    -->[Yes] In summary
 
     note right
         An article is created on the
