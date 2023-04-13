@@ -249,6 +249,10 @@ For more information about the format, please turn to [Laszlo Szikszai][szikszai
 ### Workshop
 
 In the **workshop** format, a primarily offline event is organized, to cover the idea.
+A workshop format is designed to provide an interactive platform (to bring together experts like a value creation network) for problems to be solved by the workshop contributors. Ideally, a workshop is a moderated, offline meetup or meetup series (e.g.: brainstorming, white-boarding session) to review the problem and propose solution(s).
+This can even be an anonymized example that represent an actual/common challenge on the project (e.g.: an architectural decision or any kind of request for proposal).
+
+For the workshop, a small working group (contributors, subject-matter experts) should be identified.
 
 The main process of this format:
 
