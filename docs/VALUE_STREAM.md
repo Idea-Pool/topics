@@ -198,15 +198,21 @@ For more information about the format, please turn to [Gabor Marton][gabor].
 
 ### Minutes
 
-In the **TBD** format, TBD, to cover the idea.
+In the **Minutes** format, a short, to-the-point video is created to cover the idea.
+
+The Idea Pool Minutes is rather an offline creative work than a classical tech talk or meetup. The expected output of Minutes is a few-minutes-long video animation including various techniques and tricks to highlight your idea.
+The Minutes is an answer to a question that can be answered within a short, tutorial-like video by spectacular and talkative visual elements. The focus is on providing a summary of a topic and highlights the key points in an easily digestible format.
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg)
+![Minutes-Format](./uml/format_minutes.svg).
 
-As the result of a TBD, the following artifacts might be created:
+As the result of a Minutes, the following artifacts should be created:
 
-- [TBD](#tbd)
+- A short [video](#video) composed/recorded about the idea to be shared (We recommend that Minutes videos run between 1 and 5 minutes, with a maximum of 10 minutes)
+
+Optionally, the following artifact might be created:
+- An [article](#article) to summarize/expand the topic of the demo
 
 For more information about the format, please turn to [Sandor Orosz][sorosz].
 
@@ -253,6 +259,10 @@ For more information about the format, please turn to [Laszlo Szikszai][szikszai
 ### Workshop
 
 In the **workshop** format, a primarily offline event is organized, to cover the idea.
+A workshop format is designed to provide an interactive platform (to bring together experts like a value creation network) for problems to be solved by the workshop contributors. Ideally, a workshop is a moderated, offline meetup or meetup series (e.g.: brainstorming, white-boarding session) to review the problem and propose solution(s).
+This can even be an anonymized example that represent an actual/common challenge on the project (e.g.: an architectural decision or any kind of request for proposal).
+
+For the workshop, a small working group (contributors, subject-matter experts) should be identified.
 
 The main process of this format:
 
