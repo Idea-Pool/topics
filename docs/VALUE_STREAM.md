@@ -274,6 +274,7 @@ For more information about the format, please turn to [Sandor Orosz][sorosz].
 ## Artifact
 
 The **artifacts** are achievable and presentable results produced in the scope of an idea that demonstrates information.
+Note that each artifact can be classified as either public or non-public, depending on the nature of the idea and the information to be shared.
 
 Each artifact (type) is defined by
 
