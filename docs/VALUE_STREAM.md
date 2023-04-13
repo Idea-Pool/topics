@@ -102,9 +102,19 @@ e.g., `stream:education`).
 ### Competency Development
 
 * The **Competency Development stream** aims to assist the development of engineers by providing help, opportunities,
-  and materials to learn, educate, to share experiences and best practices.
+  and materials to learn, educate, share experiences and best practices. Every topics, ideas can be part of the Competency Development
+  that are not related to the other, specialized Streams.
 * The **benefits** of participating in the Competency Development stream include
-    * ...
+    * Gathering confidence in public speaking in English
+    * Being motivated to learn new technologies, methodologies, best practices besides the daily work
+    * Mastering presentation skills
+    * Learning material, program creation
+    * Activities are supported by motivating and experienced leadership to achieve professional goals
+
+Example for the contribution to the EPAM departments:
+  * Creating an official training through EPAM Learn portal altogether with the Learning & Development department
+  * Helping the Talent Acquisition team with creating professional interview tasks
+  * Taking part in the creation/presentation phase of the university education materials, mentor programs with the Resoruce Development team
 
 For more information about the stream, please turn to [Milan Horvath][milan].
 
@@ -162,7 +172,7 @@ The **article** format provides the opportunity to the author to write a profess
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg)
+![Workshop-Process](./uml/format_article.svg)
 
 As the result an article artifact will be created.
 
