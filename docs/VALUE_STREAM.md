@@ -111,11 +111,6 @@ e.g., `stream:education`).
     * Learning material, program creation
     * Activities are supported by motivating and experienced leadership to achieve professional goals
 
-Example for the contribution to the EPAM departments:
-  * Creating an official training through EPAM Learn portal altogether with the Learning & Development department
-  * Helping the Talent Acquisition team with creating professional interview tasks
-  * Taking part in the creation/presentation phase of the university education materials, mentor programs with the Resoruce Development team
-
 For more information about the stream, please turn to [Milan Horvath][milan].
 
 ### Cloud
