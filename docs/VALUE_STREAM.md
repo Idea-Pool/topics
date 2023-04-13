@@ -102,9 +102,14 @@ e.g., `stream:education`).
 ### Competency Development
 
 * The **Competency Development stream** aims to assist the development of engineers by providing help, opportunities,
-  and materials to learn, educate, to share experiences and best practices.
+  and materials to learn, educate, share experiences and best practices. Every topics, ideas can be part of the Competency Development
+  that are not related to the other, specialized Streams.
 * The **benefits** of participating in the Competency Development stream include
-    * ...
+    * Gathering confidence in public speaking in English
+    * Being motivated to learn new technologies, methodologies, best practices besides the daily work
+    * Mastering presentation skills
+    * Learning material, program creation
+    * Activities are supported by motivating and experienced leadership to achieve professional goals
 
 For more information about the stream, please turn to [Milan Horvath][milan].
 
@@ -162,7 +167,7 @@ The **article** format provides the opportunity to the author to write a profess
 
 The main process of this format:
 
-![Workshop-Process](./uml/process-placeholder.svg)
+![Workshop-Process](./uml/format_article.svg)
 
 As the result an article artifact will be created.
 
@@ -269,6 +274,7 @@ For more information about the format, please turn to [Sandor Orosz][sorosz].
 ## Artifact
 
 The **artifacts** are achievable and presentable results produced in the scope of an idea that demonstrates information.
+Note that each artifact can be classified as either public or non-public, depending on the nature of the idea and the information to be shared.
 
 Each artifact (type) is defined by
 
