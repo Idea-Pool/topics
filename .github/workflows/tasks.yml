@@ -1,20 +1,48 @@
-name: Add Task List Issues
+name: Add Task List to Issues
 on:
   issues:
     types: [opened, edited, labeled]
 jobs:
-  ta-tool-evaluation:
+  add-task-list:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Add Task List to Issues
-        uses: juliangruber/github-task-list@v2
+        uses: actions/github-script@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          label: "stream:ta-tool-evaluation"
-          tasks: |
-            - [ ] Create a presentation to introduce the tool, summarize its features and use cases
-            - [ ] Use the TBD repository to implement at least the given test cases with the tool
-            - [ ] Include the results and findings of the implementation in the presentation
-            - [ ] Demonstrate the presentation
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.issue;
+            const labels = issue.labels.map((label) => label.name);
+            if (labels.includes("stream:ta-tool-evaluation")) {
+              const taskList = `## Tool Evaluation Task List
+              - [ ] Create a presentation to introduce the tool, summarize its features and use cases
+              - [ ] Use the TBD repository to implement at least the given test cases with the tool
+              - [ ] Include the results and findings of the implementation in the presentation
+              - [ ] Demonstrate the presentation`;
+              const existingComments = await github.issues.listComments({
+                ...issue,
+                per_page: 100,
+              });
+              const existingTaskLists = existingComments.data.filter(
+                (comment) =>
+                  comment.user.login === "github-actions" &&
+                  comment.body.startsWith("Task List:")
+              );
+              const existingTaskList = existingTaskLists.find((comment) =>
+                comment.body.includes("Tool Evaluation Task List")
+              );
+              if (existingTaskList) {
+                await github.issues.updateComment({
+                  ...issue,
+                  comment_id: existingTaskList.id,
+                  body: taskList,
+                });
+              } else {
+                await github.issues.createComment({
+                  ...issue,
+                  body: `Task List: ${taskList}`,
+                });
+              }
+            }
