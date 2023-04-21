@@ -9,7 +9,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Add Task List to Issues
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
