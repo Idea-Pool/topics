@@ -25,7 +25,8 @@ jobs:
                 ...issue,
                 per_page: 100,
               });
-              const existingTaskLists = existingComments.data.filter(
+              console.log(existingComments);
+              const existingTaskLists = existingComments.filter(
                 (comment) =>
                   comment.user.login === "github-actions" &&
                   comment.body.startsWith("Task List:")
