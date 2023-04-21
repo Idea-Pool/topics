@@ -21,7 +21,7 @@ jobs:
               - [ ] Use the TBD repository to implement at least the given test cases with the tool
               - [ ] Include the results and findings of the implementation in the presentation
               - [ ] Demonstrate the presentation`;
-              const existingComments = await github.issues.listComments({
+              const existingComments = await github.rest.issues.listComments({
                 ...issue,
                 per_page: 100,
               });
@@ -34,13 +34,13 @@ jobs:
                 comment.body.includes("Tool Evaluation Task List")
               );
               if (existingTaskList) {
-                await github.issues.updateComment({
+                await github.rest.issues.updateComment({
                   ...issue,
                   comment_id: existingTaskList.id,
                   body: taskList,
                 });
               } else {
-                await github.issues.createComment({
+                await github.rest.issues.createComment({
                   ...issue,
                   body: `Task List: ${taskList}`,
                 });
