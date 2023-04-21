@@ -14,6 +14,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issue = context.payload.issue;
+            console.log(issue);
             const labels = issue.labels.map((label) => label.name);
             if (labels.includes("stream:ta-tool-evaluation")) {
               const taskList = `## Tool Evaluation Task List
@@ -21,8 +22,16 @@ jobs:
               - [ ] Use the TBD repository to implement at least the given test cases with the tool
               - [ ] Include the results and findings of the implementation in the presentation
               - [ ] Demonstrate the presentation`;
+              console.log({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                per_page: 100,
+              });
               const existingComments = await github.rest.issues.listComments({
-                ...issue,
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
                 per_page: 100,
               });
               console.log(existingComments);
