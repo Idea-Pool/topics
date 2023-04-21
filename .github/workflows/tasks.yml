@@ -1,0 +1,20 @@
+name: Add Task List Issues
+on:
+  issues:
+    types: [opened, edited, labeled]
+jobs:
+  ta-tool-evaluation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Add Task List to Issues
+        uses: juliangruber/github-task-list@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          label: "stream:ta-tool-evaluation"
+          tasks: |
+            - [ ] Create a presentation to introduce the tool, summarize its features and use cases
+            - [ ] Use the TBD repository to implement at least the given test cases with the tool
+            - [ ] Include the results and findings of the implementation in the presentation
+            - [ ] Demonstrate the presentation
