@@ -1,0 +1,86 @@
+name: Handling draft idea
+on:
+  issues:
+    types:
+      - opened
+      - edited
+      - labeled
+jobs:
+  check_precondition:
+    name: Checking Precondition
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+    outputs:
+      shouldProcess: ${{ steps.checkLabel.outputs.result }}
+    steps:
+      - uses: actions/github-script@v6
+        id: checkLabel
+        with:
+          script: |
+            const {data: issue} = await github.rest.issues.get({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+            return issue.labels.some(l => l.name === 'draft');
+
+  parse_data:
+    needs: check_precondition
+    name: Parsing Issue Data
+    if: needs.check_precondition.outputs.shouldProcess == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+    outputs:
+      issueData: ${{ steps.getData.outputs.result }}
+    steps:
+      - uses: actions/github-script@v6
+        id: getData
+        with:
+          script: |
+            const {data: issue} = await github.rest.issues.get({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+            const bodyData = [
+              ...issue.body.matchAll(/###\s(\d\.\d\.)\s([^\r\n]+)\s+([^#]+)(?=\s+#|$)/g)
+            ].reduce((d, m) => {
+              const key = m[2].replace(/\s+/g, '');
+              const value = m[3].trim();
+              d[key] = {
+                index: m[1],
+                title: m[2],
+                content: m[3],
+                value: value === '_No response_' ? null : value,
+              };
+              return d;
+            }, {});
+            console.log(bodyData);
+            return bodyData;
+
+  missing_data:
+    needs: parse_data
+    name: Handling Missing Data
+    runs-on: ubuntu-latest
+    outputs:
+      hasMissingData: ${{ steps.checkMissin}}
+    steps:
+      - uses: actions/github-script@v6
+        id: checkMissing
+        env:
+          ISSUE: "${{ needs.parse_data.outputs.issueData }}"
+        with:
+          script: |
+            const data = JSON.parse(process.env.ISSUE);
+            console.log(data);
+            return data.Area === true;
+
+  adding_labels:
+    needs: missing_data
+    name: Adding Labels
+    if: needs.missing_data.outputs.hasMissingData == 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{ needs.parse_data.outputs.issueData }}"
