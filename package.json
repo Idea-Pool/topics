@@ -9,7 +9,7 @@
   "scripts": {
     "force-process": "npm run process -- -- --force",
     "process": "npm-run-all \"process:toc {@}\" \"process:puml {@}\" --",
-    "process:toc": "markdown-toc -i docs/*.md",
+    "process:toc": "node scripts/md.js",
     "process:puml": "node scripts/puml.js",
     "prepare": "husky install"
   },
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/Idea-Pool/topics#readme",
   "dependencies": {
     "husky": "^8.0.3",
+    "glob": "^10.2.2",
     "markdown-toc": "^1.2.0",
     "node-fetch": "v2",
     "node-plantuml": "^0.9.0",
