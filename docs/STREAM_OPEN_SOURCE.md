@@ -9,7 +9,7 @@
 
 <!-- tocstop -->
 
-The Open Source stream is an initiative that aims to cultivate a deeper appreciation for Open Source culture among engineers. Through contribution to this stream, participants can gain valuable development experience and support to make meaningful contributions to the global Open Source community.
+The Open Source stream is an initiative that aims to cultivate a deeper appreciation for Open Source culture among engineers, in cooperation with [EPAM Open Source Program Office](https://wearecommunity.io/communities/open-source) and other communities. Through contribution to this stream, participants can gain valuable development experience and support to make meaningful contributions to the global Open Source community.
 
 By joining the Open Source stream, you can enjoy a range of benefits, including:
 * Experience with end-to-end software development practices, from planning and design to development, testing, release, and maintenance.
