@@ -1,5 +1,14 @@
 # Open Source
 
+<!-- toc -->
+
+- [Projects](#projects)
+  * [GherKing](#gherking)
+  * [Community Manager](#community-manager)
+  * [AWS Testing](#aws-testing)
+
+<!-- tocstop -->
+
 The Open Source stream is an initiative that aims to cultivate a deeper appreciation for Open Source culture among engineers in cooperation with TBD. Through contribution to this stream, participants can gain valuable development experience and supported to make meaningful contributions to the global Open Source community.
 
 By joining the Open Source stream, you can enjoy a range of benefits, including:
