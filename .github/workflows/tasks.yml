@@ -2,7 +2,9 @@ name: Add Task List to Issues
 on:
   # workflow_dispatch
   issues:
-    types: [opened, edited, labeled]
+    types:
+     - opened
+     - labeled
 jobs:
   add-task-list:
     runs-on: ubuntu-latest
