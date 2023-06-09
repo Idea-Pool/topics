@@ -35,6 +35,13 @@ module.exports = ({github, context}) => {
   
   if (body != issue.body) {
     console.log("Updating issue");
+    const params = {
+      issue_number: context.issue.number,
+      owner: context.repo.owner,
+      repo: context.repo.repo,
+      body,
+    };
+    return await github.rest.issues.update(params);
   } else {
     console.log("No change");
   }
