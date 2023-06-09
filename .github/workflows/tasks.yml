@@ -1,8 +1,8 @@
 name: Add Task List to Issues
 on:
-  workflow_dispatch
-  # issues:
-    # types: [opened, edited, labeled]
+  # workflow_dispatch
+  issues:
+    types: [opened, edited, labeled]
 jobs:
   add-task-list:
     runs-on: ubuntu-latest
@@ -14,41 +14,6 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const issue = context.payload.issue;
-            const labels = issue.labels.map((label) => label.name);
-            if (labels.includes("stream:ta-tool-evaluation")) {
-              const taskList = `## Tool Evaluation Task List
-              - [ ] Create a presentation to introduce the tool, summarize its features and use cases
-              - [ ] Use the TBD repository to implement at least the given test cases with the tool
-              - [ ] Include the results and findings of the implementation in the presentation
-              - [ ] Demonstrate the presentation`;
-              const params = {
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-              };
-              const existingComments = await github.rest.issues.listComments({
-                ...params,
-                per_page: 100,
-              });
-              const existingTaskLists = existingComments.data.filter(
-                (comment) =>
-                  comment.user.login === "github-actions" &&
-                  comment.body.startsWith("Task List:")
-              );
-              const existingTaskList = existingTaskLists.find((comment) =>
-                comment.body.includes("Tool Evaluation Task List")
-              );
-              if (existingTaskList) {
-                await github.rest.issues.updateComment({
-                  ...params,
-                  comment_id: existingTaskList.id,
-                  body: taskList,
-                });
-              } else {
-                await github.rest.issues.createComment({
-                  ...params,
-                  body: `Task List: ${taskList}`,
-                });
-              }
-            }
+            const script = require('./tasks/scripts/add-task.js')
+            console.log(script({github, context}))
+          
