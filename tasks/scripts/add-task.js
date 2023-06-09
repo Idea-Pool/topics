@@ -15,9 +15,11 @@ function processTaskList(issue, body, taskList) {
   return [
     body,
     "",
+    START_TOKEN,
     "## " + (taskList.title || `Tasks (${taskList.id})`),
     "",
     ...taskList.tasks.map(item => `- [ ] ${item}`),
+    END_TOKEN,
   ].join("\r\n");
 }
 
