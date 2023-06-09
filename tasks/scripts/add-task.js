@@ -20,7 +20,7 @@ function processTaskList(issue, body, taskList) {
   ].join("\r\n");
 }
 
-module.exports = ({github, context}) => {
+module.exports = async ({github, context}) => {
   const activeTaskLists = Object.keys(tasks)
     .filter(id => tasks[id].enabled)
     .map(id => ({ ...tasks[id], id }));
