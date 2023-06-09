@@ -1,8 +1,12 @@
 {
-  "ta-tool-evaluation": [
-    "Create a presentation to introduce the tool, summarize its features and use cases",
-    "Use the TBD repository to implement at least the given test cases with the tool",
-    "Include the results and findings of the implementation in the presentation",
-    "Demonstrate the presentation
-  ]
+  "ta-tool-evaluation": {
+    "enabled": true,
+    "label": "stream:ta-tool-evaluation",
+    "tasks": [
+      "Create a presentation to introduce the tool, summarize its features and use cases",
+      "Use the TBD repository to implement at least the given test cases with the tool",
+      "Include the results and findings of the implementation in the presentation",
+      "Demonstrate the presentation"
+    ]
+  }
 }
