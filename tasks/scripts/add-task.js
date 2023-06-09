@@ -14,6 +14,7 @@ function processTaskList(issue, body, taskList) {
   console.log("Adding task list");
   return [
     body,
+    "",
     "## " + (taskList.title || `Tasks (${taskList.id})`),
     "",
     ...taskList.tasks.map(item => `- [ ] ${item}`),
