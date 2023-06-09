@@ -1,3 +1,6 @@
+const tasks = require('../tasks.json');
+
 module.exports = ({github, context}) => {
-  return context.payload.client_payload.value
+  const issue = context.payload.issue;
+  console.log({issue});
 }
