@@ -1,4 +1,4 @@
-const tasks = require('../tasks.json');
+const tasks = require('../config/tasks.json');
 
 function processTaskList(issue, body, taskList) {
   if (!issue.labels.find(label => label.name === taskList.label)) {
@@ -29,6 +29,8 @@ module.exports = async ({github, context}) => {
     .map(id => ({ ...tasks[id], id }));
   
   const issue = context.payload.issue;
+  console.log(JSON.stringify({issue}, null, 2));
+
   let body = issue.body;
   
   for (const taskList of activeTaskLists) {
@@ -36,7 +38,7 @@ module.exports = async ({github, context}) => {
     body = processTaskList(issue, body, taskList);
   }
   
-  if (body != issue.body) {
+  if (body !== issue.body) {
     console.log("Updating issue");
     const params = {
       issue_number: context.issue.number,

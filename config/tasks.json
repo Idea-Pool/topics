@@ -1,0 +1,17 @@
+{
+  "ta-tool-evaluation": {
+    "enabled": true,
+    "label": "stream:ta-tool-evaluation",
+    "title": "Tasks",
+    "tasks": [
+      "@Idea-Pool/idea-pool-staff-team: Create evaluation repository: TBD",
+      "@Idea-Pool/idea-pool-staff-team: Create an event on the WAC portal: TBD",
+      "@Assignee: Use the repository to implement at least the given test cases with the tool",
+      "@Assignee: Create a presentation to introduce the tool, summarize its features and use cases",
+      "@Assignee: Include the results and findings of the implementation in the presentation",
+      "@Assignee: Demonstrate the presentation",
+      "@Idea-Pool/idea-pool-staff-team: Upload recording: TBD",
+      "@Idea-Pool/idea-pool-staff-team: Upload slides: TBD"
+    ]
+  }
+}
