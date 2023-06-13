@@ -12,13 +12,17 @@ function processTaskList(issue, body, taskList) {
     return body;
   }
   console.log("Adding task list");
+  const tasks = taskList.tasks.map(item => {
+    item = item.replace(/@Assignee/gi, issue.assignee ? `@${issue.assignee.login}` : "TBD");
+    return `- [ ] ${item}`;
+  })
   return [
     body,
     "",
     START_TOKEN,
     "## " + (taskList.title || `Tasks (${taskList.id})`),
     "",
-    ...taskList.tasks.map(item => `- [ ] ${item}`),
+    ...tasks,
     END_TOKEN,
   ].join("\r\n");
 }
@@ -29,8 +33,6 @@ module.exports = async ({github, context}) => {
     .map(id => ({ ...tasks[id], id }));
   
   const issue = context.payload.issue;
-  console.log(JSON.stringify({issue}, null, 2));
-
   let body = issue.body;
   
   for (const taskList of activeTaskLists) {
