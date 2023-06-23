@@ -2,7 +2,7 @@
   "ta-tool-evaluation": {
     "enabled": true,
     "label": "stream:ta-tool-evaluation",
-    "title": "Tasks",
+    "title": "Tasks: TA Tool Evaluation",
     "tasks": [
       "@Idea-Pool/idea-pool-staff-team: Create evaluation repository: TBD",
       "@Idea-Pool/idea-pool-staff-team: Create the event (WAC): TBD",
@@ -17,12 +17,13 @@
   "qet": {
     "enabled": true,
     "label": "project:qet",
-    "title": "Tasks",
+    "title": "Tasks: Quality Engineering Talks",
     "tasks": [
       "@Idea-Pool/idea-pool-staff-team: Create the event (WAC): TBD",
       "@Idea-Pool/idea-pool-staff-team: Advertise the event and invite participants",
       "@Idea-Pool/idea-pool-staff-team: Prepare for the workshop",
-      "@Idea-Pool/idea-pool-staff-team: Upload notes, research and summary to MS Teams"
+      "@Idea-Pool/idea-pool-staff-team: Conduct the workshop",
+      "@Idea-Pool/idea-pool-staff-team: Upload notes, research, and summary to MS Teams"
     ]
   }
 }
