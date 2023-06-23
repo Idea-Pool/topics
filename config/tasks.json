@@ -13,5 +13,16 @@
       "@Idea-Pool/idea-pool-staff-team: Upload the recording (VideoPortal): TBD",
       "@Idea-Pool/idea-pool-staff-team: Upload the slides (PDF): TBD"
     ]
+  },
+  "qet": {
+    "enabled": true,
+    "label": "project:qet",
+    "title": "Tasks",
+    "tasks": [
+      "@Idea-Pool/idea-pool-staff-team: Create the event (WAC): TBD",
+      "@Idea-Pool/idea-pool-staff-team: Advertise the event and invite participants",
+      "@Idea-Pool/idea-pool-staff-team: Prepare for the workshop",
+      "@Idea-Pool/idea-pool-staff-team: Upload notes, research and summary to MS Teams"
+    ]
   }
 }
