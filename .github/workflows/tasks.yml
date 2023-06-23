@@ -1,4 +1,6 @@
 name: Add Task List to Issues
+permissions:
+  issues: write
 on:
   # workflow_dispatch
   issues:
