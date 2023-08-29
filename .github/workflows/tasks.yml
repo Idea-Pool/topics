@@ -7,11 +7,11 @@ on:
     types:
      - opened
      - labeled
+concurrency:
+  group: ${{ github.event.issue.number }}
+  cancel-in-progress: true
 jobs:
   add-task-list:
-    concurrency:
-      group: ${{ context.issue.number }}
-      cancel-in-progress: true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
